@@ -4,17 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Details | Lumina Online Store</title>
-  <!-- Google Fonts -->
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <!-- FontAwesome Icons -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Announcement Bar -->
   <div class="top-bar">
     <div class="container top-bar-content">
       <p><i class="fas fa-shield-alt"></i> Official 2-Year International Warranty Included with flagship products.</p>
@@ -24,7 +23,6 @@
     </div>
   </div>
 
-  <!-- Header Navigation -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="brand-logo">
@@ -59,7 +57,6 @@
     </div>
   </header>
 
-  <!-- Page Header -->
   <div class="page-header">
     <div class="container">
       <h1 class="page-title">Product Details</h1>
@@ -75,21 +72,18 @@
 
   <main class="section">
     <div class="container">
-      
-      <!-- Single Product Main Container -->
+
       <section class="product-detail-layout" id="product-detail-section">
-        
-        <!-- Gallery Images -->
+
         <div class="product-gallery">
           <div class="main-image-box">
             <img src="" id="detail-main-img" alt="Product Image">
           </div>
           <div class="thumb-list" id="detail-thumb-list">
-            <!-- Dynamically populated thumbs -->
+            
           </div>
         </div>
 
-        <!-- Product Information & Order Actions -->
         <div class="product-info-col">
           <span class="stock-status in-stock"><i class="fas fa-check-circle"></i> In Stock & Ready to Ship</span>
           
@@ -112,7 +106,6 @@
             Loading product details...
           </p>
 
-          <!-- Interactive Add to Cart & Quantity Pickers -->
           <div style="display: flex; gap: 1.5rem; align-items: center; margin-bottom: 2rem; flex-wrap: wrap;">
             <div>
               <label style="display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.35rem; color: var(--text-muted);">QUANTITY</label>
@@ -132,7 +125,6 @@
             </button>
           </div>
 
-          <!-- Feature Bullets (Lab 2 Unordered List Concept) -->
           <ul style="list-style: none; font-size: 0.9rem; color: var(--text-muted); line-height: 1.8; border-top: 1px solid var(--border-color); padding-top: 1.25rem;">
             <li><i class="fas fa-check" style="color: #22C55E; margin-right: 0.5rem;"></i> Official Lumina Direct Express Shipping</li>
             <li><i class="fas fa-check" style="color: #22C55E; margin-right: 0.5rem;"></i> 30-Day Hassle-Free Return Guarantee</li>
@@ -142,7 +134,6 @@
 
       </section>
 
-      <!-- Detailed Specifications & Tabs (Lab 2 Definition List <dl> Concept) -->
       <section class="product-tabs-container">
         <div class="tabs-nav">
           <button class="tab-btn active" onclick="switchTab('tab-specs', this)">Technical Specifications</button>
@@ -150,15 +141,13 @@
           <button class="tab-btn" onclick="switchTab('tab-reviews', this)">Customer Reviews</button>
         </div>
 
-        <!-- Specifications Tab (Lab 2 <dl>, <dt>, <dd>) -->
         <div id="tab-specs" class="tab-content active">
           <h3 style="margin-bottom: 1rem; font-family: var(--font-heading);">Hardware Specifications (<dl> Definition List)</h3>
           <dl class="specs-dl" id="detail-specs-dl">
-            <!-- Dynamically populated DL items from app.js -->
+            
           </dl>
         </div>
 
-        <!-- Shipping Tab -->
         <div id="tab-shipping" class="tab-content">
           <h3 style="margin-bottom: 1rem; font-family: var(--font-heading);">Global Delivery Times</h3>
           <p style="color: var(--text-muted); line-height: 1.7; margin-bottom: 1rem;">
@@ -170,7 +159,6 @@
           </ul>
         </div>
 
-        <!-- Reviews Tab -->
         <div id="tab-reviews" class="tab-content">
           <h3 style="margin-bottom: 1rem; font-family: var(--font-heading);">Verified Buyer Reviews</h3>
           <div style="background: var(--bg-body); padding: 1.5rem; border-radius: var(--radius-md); border: 1px solid var(--border-color); margin-bottom: 1rem;">
@@ -188,7 +176,6 @@
     </div>
   </main>
 
-  <!-- Site Footer -->
   <footer class="site-footer">
     <div class="container footer-top">
       <div class="footer-grid">

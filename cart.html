@@ -4,17 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shopping Cart | Lumina Online Store</title>
-  <!-- Google Fonts -->
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <!-- FontAwesome Icons -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Announcement Bar -->
   <div class="top-bar">
     <div class="container top-bar-content">
       <p><i class="fas fa-shopping-bag"></i> Free Shipping automatically unlocked on orders above <strong>$500</strong></p>
@@ -24,7 +23,6 @@
     </div>
   </div>
 
-  <!-- Header Navigation -->
   <header class="site-header">
     <div class="container header-inner">
       <a href="index.html" class="brand-logo">
@@ -59,7 +57,6 @@
     </div>
   </header>
 
-  <!-- Page Header -->
   <div class="page-header">
     <div class="container">
       <h1 class="page-title">Shopping Cart</h1>
@@ -75,8 +72,7 @@
     <div class="container" id="cart-content-wrapper">
       
       <div class="cart-layout">
-        
-        <!-- Cart Items Table (Lab 1 & 2 HTML Table Concept) -->
+
         <div class="cart-table-wrapper">
           <table class="cart-table">
             <thead>
@@ -89,7 +85,7 @@
               </tr>
             </thead>
             <tbody id="cart-table-body">
-              <!-- Dynamically populated via app.js -->
+              
             </tbody>
           </table>
           <div style="padding: 1.25rem; display: flex; justify-content: space-between; border-top: 1px solid var(--border-color); background: var(--bg-body);">
@@ -102,7 +98,6 @@
           </div>
         </div>
 
-        <!-- Order Summary Card -->
         <aside class="summary-card">
           <h3 class="summary-title"><i class="fas fa-calculator"></i> Order Summary</h3>
           
@@ -121,7 +116,6 @@
             <span style="font-weight: 600;">Included</span>
           </div>
 
-          <!-- Coupon Promo Box (Lab 1 & 2 Form Controls) -->
           <form onsubmit="event.preventDefault(); LuminaStore.showToast('Coupon LUMINA20 applied!', 'success');" style="margin: 1.5rem 0;">
             <label style="display: block; font-size: 0.85rem; font-weight: 700; margin-bottom: 0.35rem;">Promo Code</label>
             <div style="display: flex; gap: 0.5rem;">
@@ -145,7 +139,6 @@
     </div>
   </main>
 
-  <!-- Site Footer -->
   <footer class="site-footer">
     <div class="container footer-top">
       <div class="footer-grid">

@@ -1,9 +1,5 @@
-/* ==========================================================================
-   LUMINA ONLINE STORE - MAIN JAVASCRIPT APP
-   Lab Assignment 1, 2 & 3 - Frontend State & Dynamic Features
-   ========================================================================== */
 
-// --- Global Product Database ---
+
 const PRODUCTS_DATA = [
   {
     id: "lumina-headphones",
@@ -183,7 +179,6 @@ const PRODUCTS_DATA = [
   }
 ];
 
-// --- LocalStorage State Management ---
 const LuminaStore = {
   getCart() {
     const data = localStorage.getItem("lumina_cart");
@@ -291,7 +286,6 @@ const LuminaStore = {
   }
 };
 
-// --- Render Product Card Helper ---
 function createProductCardHTML(product) {
   const wishlist = LuminaStore.getWishlist();
   const isWishlisted = wishlist.includes(product.id);
@@ -331,7 +325,6 @@ function createProductCardHTML(product) {
   `;
 }
 
-// Global Wishlist Button Handler
 function handleWishlistClick(event, productId) {
   event.preventDefault();
   event.stopPropagation();
@@ -347,12 +340,9 @@ function handleWishlistClick(event, productId) {
   }
 }
 
-// --- DOM Initializations on Page Load ---
 document.addEventListener("DOMContentLoaded", () => {
-  // Update Header Counters
   LuminaStore.updateBadges();
 
-  // Mobile Menu Toggle
   const mobileToggleBtn = document.querySelector(".mobile-toggle");
   const navMenu = document.querySelector(".nav-menu");
   if (mobileToggleBtn && navMenu) {
@@ -361,7 +351,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Active Link Highlighting
   const currentPage = window.location.pathname.split("/").pop() || "index.html";
   const navLinks = document.querySelectorAll(".nav-link");
   navLinks.forEach(link => {
@@ -371,13 +360,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Render Home Page Products
   const featuredGrid = document.getElementById("featured-products-grid");
   if (featuredGrid) {
     featuredGrid.innerHTML = PRODUCTS_DATA.slice(0, 8).map(createProductCardHTML).join("");
   }
 
-  // Render Shop Page Products & Filtering
   const shopGrid = document.getElementById("shop-products-grid");
   if (shopGrid) {
     let currentProducts = [...PRODUCTS_DATA];
@@ -395,7 +382,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     renderShop(currentProducts);
 
-    // Search Filter
     const searchInput = document.getElementById("shop-search-input");
     if (searchInput) {
       searchInput.addEventListener("input", (e) => {
@@ -405,7 +391,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    // Category Checkboxes
     const categoryCheckboxes = document.querySelectorAll(".category-filter-checkbox");
     if (categoryCheckboxes.length > 0) {
       categoryCheckboxes.forEach(box => {
@@ -420,7 +405,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    // Sort Dropdown
     const sortSelect = document.getElementById("shop-sort-select");
     if (sortSelect) {
       sortSelect.addEventListener("change", (e) => {
@@ -434,7 +418,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Render Category Page Specific Filters
   const categoryPageContainer = document.getElementById("category-page-container");
   if (categoryPageContainer) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -449,14 +432,12 @@ document.addEventListener("DOMContentLoaded", () => {
     categoryPageContainer.innerHTML = filtered.map(createProductCardHTML).join("");
   }
 
-  // Single Product Detail Page Handler
   const detailContainer = document.getElementById("product-detail-section");
   if (detailContainer) {
     const urlParams = new URLSearchParams(window.location.search);
     const prodId = urlParams.get("id") || "lumina-headphones";
     const product = PRODUCTS_DATA.find(p => p.id === prodId) || PRODUCTS_DATA[0];
 
-    // Render Product Main Info
     document.getElementById("detail-title").textContent = product.name;
     document.getElementById("detail-category").textContent = product.category;
     document.getElementById("detail-price").textContent = `$${product.price.toFixed(2)}`;
@@ -470,7 +451,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const mainImg = document.getElementById("detail-main-img");
     if (mainImg) mainImg.src = product.image;
 
-    // Render Thumbnails
     const thumbList = document.getElementById("detail-thumb-list");
     if (thumbList && product.gallery) {
       thumbList.innerHTML = product.gallery.map((imgUrl, index) => `
@@ -480,7 +460,6 @@ document.addEventListener("DOMContentLoaded", () => {
       `).join("");
     }
 
-    // Quantity Picker
     let currentQty = 1;
     const qtyInput = document.getElementById("detail-qty-input");
     const decBtn = document.getElementById("detail-qty-minus");
@@ -499,7 +478,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    // Add to Cart Button
     const addCartBtn = document.getElementById("detail-add-cart-btn");
     if (addCartBtn) {
       addCartBtn.addEventListener("click", () => {
@@ -507,7 +485,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    // Add to Wishlist Button
     const addWishlistBtn = document.getElementById("detail-wishlist-btn");
     if (addWishlistBtn) {
       addWishlistBtn.addEventListener("click", () => {
@@ -515,7 +492,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    // Specifications Definition List (Lab 2 Concept)
     const specsDl = document.getElementById("detail-specs-dl");
     if (specsDl && product.specs) {
       specsDl.innerHTML = Object.entries(product.specs).map(([key, val]) => `
@@ -525,26 +501,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Cart Page Handler
   const cartTableBody = document.getElementById("cart-table-body");
   if (cartTableBody) {
     renderCartPage();
   }
 
-  // Wishlist Page Handler
   const wishlistGrid = document.getElementById("wishlist-products-grid");
   if (wishlistGrid) {
     renderWishlistPage();
   }
 
-  // Checkout Page Handler
   const checkoutSummaryList = document.getElementById("checkout-summary-list");
   if (checkoutSummaryList) {
     renderCheckoutPage();
   }
 });
 
-// Image switch helper for product detail page
 function switchDetailImage(src, thumbElement) {
   const mainImg = document.getElementById("detail-main-img");
   if (mainImg) mainImg.src = src;
@@ -554,7 +526,6 @@ function switchDetailImage(src, thumbElement) {
   thumbElement.classList.add("active");
 }
 
-// Tabs switcher helper for detail page
 function switchTab(tabId, btnElement) {
   const tabs = document.querySelectorAll(".tab-content");
   tabs.forEach(t => t.classList.remove("active"));
@@ -566,7 +537,6 @@ function switchTab(tabId, btnElement) {
   btnElement.classList.add("active");
 }
 
-// Render Cart Page Content
 function renderCartPage() {
   const cartTableBody = document.getElementById("cart-table-body");
   const cart = LuminaStore.getCart();
@@ -629,7 +599,6 @@ function updateCartItemQty(id, newQty) {
   renderCartPage();
 }
 
-// Render Wishlist Page Content
 function renderWishlistPage() {
   const wishlistGrid = document.getElementById("wishlist-products-grid");
   const wishlistIds = LuminaStore.getWishlist();
@@ -650,7 +619,6 @@ function renderWishlistPage() {
   wishlistGrid.innerHTML = wishlistedProducts.map(createProductCardHTML).join("");
 }
 
-// Render Checkout Page
 function renderCheckoutPage() {
   const checkoutSummaryList = document.getElementById("checkout-summary-list");
   const cart = LuminaStore.getCart();
@@ -679,12 +647,10 @@ function renderCheckoutPage() {
   document.getElementById("checkout-subtotal").textContent = `$${subtotal.toFixed(2)}`;
   document.getElementById("checkout-total").textContent = `$${(subtotal + shipping).toFixed(2)}`;
 
-  // Form submit handler
   const form = document.getElementById("checkout-form");
   if (form) {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
-      // Generate random order ID
       const orderId = "LUM-" + Math.floor(100000 + Math.random() * 900000);
       localStorage.setItem("lumina_last_order", JSON.stringify({
         orderId: orderId,
@@ -693,7 +659,6 @@ function renderCheckoutPage() {
         date: new Date().toLocaleDateString()
       }));
 
-      // Clear cart
       LuminaStore.saveCart([]);
       window.location.href = `thank-you.html?order=${orderId}`;
     });
