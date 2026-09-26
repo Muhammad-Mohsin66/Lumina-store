@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumina Store | Premium Electronics & Tech Lifestyle</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar (Lab 1 Text Formatting Concept) -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <p><!-- HTML Comment: Top Bar Promo Announcement -->
+        <i class="fas fa-bolt"></i> <strong>LAB SPECIAL OFFER:</strong> Save 20% on all Pro Audio gear with code <code>LUMINA20</code>
+      </p>
+      <div class="top-bar-links">
+        <a href="contact.html"><i class="fas fa-headset"></i> Support</a>
+        <a href="news.html"><i class="fas fa-newspaper"></i> News & Deals</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Site Header & Navigation (Lab 3 Hyperlinks Concept) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon"><i class="fas fa-cube"></i></div>
+        LUMINA<span class="dot">.</span>
+      </a>
+
+      <!-- Navigation Links (All 11 Pages Linked) -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="shop.html" class="nav-link">Shop</a></li>
+          <li><a href="category.html" class="nav-link">Categories</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="news.html" class="nav-link">News & Promo</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <a href="wishlist.html" class="action-icon-btn" title="View Wishlist">
+          <i class="far fa-heart"></i>
+          <span class="badge-count wishlist-badge-count">0</span>
+        </a>
+        <a href="cart.html" class="action-icon-btn" title="View Cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="badge-count cart-badge-count">0</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Mobile Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Banner Section (Lab 1 & 2 Concepts) -->
+    <section class="hero-banner">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="section-tag">Next-Gen Technology</span>
+          <h1>Sound & Vision, <span>Redefined.</span></h1>
+          <p>Discover flagship headphones, ultra-smart wearables, and premium workspace gear crafted for peak performance and aesthetics.</p>
+          <div class="hero-btns">
+            <a href="shop.html" class="btn btn-primary">
+              <i class="fas fa-shopping-cart"></i> Explore Shop
+            </a>
+            <a href="product-detail.html?id=lumina-headphones" class="btn btn-secondary">
+              <i class="fas fa-eye"></i> View Featured Product
+            </a>
+          </div>
+        </div>
+        <div class="hero-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80" alt="Lumina Flagship Headphones Banner" width="550" height="400">
+        </div>
+      </div>
+    </section>
+
+    <!-- Key Features Bar (Lab 2 Concept: Icons & Structured Feature Highlights) -->
+    <section class="features-bar">
+      <div class="container features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+          <div class="feature-info">
+            <h4>Free Global Shipping</h4>
+            <p>On orders over $150</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+          <div class="feature-info">
+            <h4>2-Year Warranty</h4>
+            <p>Guaranteed authentic hardware</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-undo-alt"></i></div>
+          <div class="feature-info">
+            <h4>30-Day Money Back</h4>
+            <p>Hassle-free easy returns</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-headset"></i></div>
+          <div class="feature-info">
+            <h4>24/7 Expert Support</h4>
+            <p>Dedicated customer service</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Top Categories Overview (Lab 3 Hyperlinks to Category Page) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Browse Collections</span>
+          <h2 class="section-title">Shop by Category</h2>
+          <p class="section-subtitle">Curated modern categories engineered to complement your digital lifestyle.</p>
+        </div>
+        <div class="categories-grid">
+          <a href="category.html?cat=Audio" class="category-card">
+            <div class="category-icon-box"><i class="fas fa-headphones-alt"></i></div>
+            <h3>Audio Gear</h3>
+            <p>Headphones, Earbuds & Speakers</p>
+          </a>
+          <a href="category.html?cat=Wearables" class="category-card">
+            <div class="category-icon-box"><i class="fas fa-stopwatch"></i></div>
+            <h3>Wearables</h3>
+            <p>Smartwatches & Fitness Trackers</p>
+          </a>
+          <a href="category.html?cat=Laptops" class="category-card">
+            <div class="category-icon-box"><i class="fas fa-laptop"></i></div>
+            <h3>Computing</h3>
+            <p>Ultrabooks & Curved Gaming Monitors</p>
+          </a>
+          <a href="category.html?cat=Accessories" class="category-card">
+            <div class="category-icon-box"><i class="fas fa-keyboard"></i></div>
+            <h3>Accessories</h3>
+            <p>Keyboards, Fast Chargers & Cables</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products Showcase (Lab 1 & 2 Product Grid) -->
+    <section class="section" style="background-color: #F1F5F9;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Top Picks</span>
+          <h2 class="section-title">Featured Products</h2>
+          <p class="section-subtitle">Hand-selected bestsellers loved by tech enthusiasts worldwide.</p>
+        </div>
+        <div class="products-grid" id="featured-products-grid">
+          <!-- Dynamically populated via app.js -->
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="shop.html" class="btn btn-outline">
+            View All Store Products <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Showcase Video Section (Lab 2 Concept: Embedded Video & Iframe) -->
+    <section class="section">
+      <div class="container">
+        <div class="promo-banner" style="display: grid; grid-template-columns: 1fr 1fr; align-items: center;">
+          <div class="promo-content">
+            <span class="promo-tag"><i class="fas fa-play-circle"></i> Video Spotlight</span>
+            <h2>Experience Lumina Pro Audio Innovation</h2>
+            <p>Watch how our custom dynamic acoustic drivers and active noise cancellation transform your listening experience.</p>
+            <ol style="margin-bottom: 1.5rem; color: #E0E7FF; line-height: 1.8;">
+              <li>Active Noise Cancellation up to 45dB</li>
+              <li>Hi-Res Audio Wireless Certification</li>
+              <li>Ultra-Soft Memory Foam Ear Cushions</li>
+            </ol>
+            <a href="product-detail.html?id=lumina-headphones" class="btn btn-secondary">Learn More</a>
+          </div>
+          <div style="width: 100%; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-lg);">
+            <!-- Lab 2 Iframe Video Embed -->
+            <iframe width="100%" height="280" src="https://www.youtube.com/embed/joriayTNmwQ" title="Lumina Product Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Site Footer (Lab 1 & 2 Footer Links & Lists) -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="color: white; margin-bottom: 1rem;">
+            <div class="logo-icon"><i class="fas fa-cube"></i></div>
+            LUMINA<span class="dot">.</span>
+          </a>
+          <p style="font-size: 0.9rem; line-height: 1.7; margin-bottom: 1.5rem;">
+            Designing tomorrow's tech aesthetic today. Flagship electronics, smart wearables, and sleek accessories delivered to your doorstep.
+          </p>
+          <div style="display: flex; gap: 1rem; font-size: 1.25rem;">
+            <a href="#" style="color: #94A3B8;"><i class="fab fa-facebook"></i></a>
+            <a href="#" style="color: #94A3B8;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="color: #94A3B8;"><i class="fab fa-instagram"></i></a>
+            <a href="#" style="color: #94A3B8;"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> Home</a></li>
+            <li><a href="shop.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> Shop Products</a></li>
+            <li><a href="category.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> Categories</a></li>
+            <li><a href="about.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> About Us</a></li>
+            <li><a href="news.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> News & Deals</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Customer Care</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> Contact Us</a></li>
+            <li><a href="wishlist.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> Saved Wishlist</a></li>
+            <li><a href="cart.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> View Cart</a></li>
+            <li><a href="checkout.html"><i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i> Checkout</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <p style="font-size: 0.875rem; margin-bottom: 1rem;">Subscribe to receive special offers and new release alerts.</p>
+          <form onsubmit="event.preventDefault(); LuminaStore.showToast('Subscribed to newsletter!', 'success');" style="display: flex; gap: 0.5rem;">
+            <input type="email" placeholder="Enter your email" required style="padding: 0.6rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); width: 100%; outline: none; font-size: 0.85rem;">
+            <button class="btn btn-primary btn-sm" type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Lumina Online Store Template. Designed for Lab Assignment 1, 2 & 3. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>

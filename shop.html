@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop All Products | Lumina Online Store</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <p><i class="fas fa-shipping-fast"></i> Free Worldwide Shipping on orders over <strong>$150</strong></p>
+      <div class="top-bar-links">
+        <a href="contact.html"><i class="fas fa-headset"></i> Support</a>
+        <a href="wishlist.html"><i class="far fa-heart"></i> Wishlist</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon"><i class="fas fa-cube"></i></div>
+        LUMINA<span class="dot">.</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="shop.html" class="nav-link active">Shop</a></li>
+          <li><a href="category.html" class="nav-link">Categories</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="news.html" class="nav-link">News & Promo</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="wishlist.html" class="action-icon-btn" title="View Wishlist">
+          <i class="far fa-heart"></i>
+          <span class="badge-count wishlist-badge-count">0</span>
+        </a>
+        <a href="cart.html" class="action-icon-btn" title="View Cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="badge-count cart-badge-count">0</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Mobile Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-title">Store Products Catalog</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i>
+        <span>Shop</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="section">
+    <div class="container">
+      <div class="shop-layout">
+        
+        <!-- Sidebar Filters (Lab 1 & 2 Forms & Lists) -->
+        <aside class="shop-sidebar">
+          <div class="sidebar-card">
+            <h3 class="sidebar-title"><i class="fas fa-filter"></i> Search Products</h3>
+            <div class="search-box" style="width: 100%;">
+              <i class="fas fa-search" style="color: var(--text-muted);"></i>
+              <input type="text" id="shop-search-input" placeholder="Search by name...">
+            </div>
+          </div>
+
+          <div class="sidebar-card">
+            <h3 class="sidebar-title"><i class="fas fa-th-large"></i> Categories</h3>
+            <ul class="filter-list">
+              <li class="filter-item">
+                <label><input type="checkbox" class="category-filter-checkbox" value="Audio"> Audio Gear</label>
+              </li>
+              <li class="filter-item">
+                <label><input type="checkbox" class="category-filter-checkbox" value="Wearables"> Wearables</label>
+              </li>
+              <li class="filter-item">
+                <label><input type="checkbox" class="category-filter-checkbox" value="Laptops"> Computing</label>
+              </li>
+              <li class="filter-item">
+                <label><input type="checkbox" class="category-filter-checkbox" value="Smart Home"> Smart Home</label>
+              </li>
+              <li class="filter-item">
+                <label><input type="checkbox" class="category-filter-checkbox" value="Accessories"> Accessories</label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="sidebar-card">
+            <h3 class="sidebar-title"><i class="fas fa-tag"></i> Promotional Deals</h3>
+            <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+              Check out our latest discount bundles on high-end audio and wearable monitors!
+            </p>
+            <a href="news.html" class="btn btn-outline btn-sm btn-full" style="margin-top: 1rem;">View Deals</a>
+          </div>
+        </aside>
+
+        <!-- Main Product Listing Content -->
+        <section class="shop-content">
+          <div class="shop-toolbar">
+            <div style="font-size: 0.95rem; font-weight: 600; color: var(--text-muted);">
+              Showing all flagship inventory
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <label for="shop-sort-select" style="font-size: 0.9rem; font-weight: 600;">Sort By:</label>
+              <select id="shop-sort-select" class="sort-select">
+                <option value="featured">Featured / Default</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="rating">Highest Rated</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Product Grid -->
+          <div class="products-grid" id="shop-products-grid">
+            <!-- Dynamically Populated by app.js -->
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="color: white; margin-bottom: 1rem;">
+            <div class="logo-icon"><i class="fas fa-cube"></i></div>
+            LUMINA<span class="dot">.</span>
+          </a>
+          <p style="font-size: 0.9rem; line-height: 1.7;">
+            High performance technology designed for your digital workspace and lifestyle.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop Products</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="cart.html">View Cart</a></li>
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="contact.html">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Info</h4>
+          <p style="font-size: 0.85rem; line-height: 1.8;">
+            <i class="fas fa-map-marker-alt"></i> COMSATS University, Islamabad<br>
+            <i class="fas fa-envelope"></i> support@luminastore.com<br>
+            <i class="fas fa-phone"></i> +92 51 111 001 007
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Lumina Online Store. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

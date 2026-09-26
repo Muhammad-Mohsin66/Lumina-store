@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | Lumina Online Store</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <p><i class="fas fa-lock"></i> 256-Bit SSL Encrypted Checkout | Safe & Secure Transaction</p>
+      <div class="top-bar-links">
+        <a href="cart.html"><i class="fas fa-arrow-left"></i> Return to Cart</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-icon"><i class="fas fa-cube"></i></div>
+        LUMINA<span class="dot">.</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="shop.html" class="nav-link">Shop</a></li>
+          <li><a href="category.html" class="nav-link">Categories</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="news.html" class="nav-link">News & Promo</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="wishlist.html" class="action-icon-btn" title="View Wishlist">
+          <i class="far fa-heart"></i>
+          <span class="badge-count wishlist-badge-count">0</span>
+        </a>
+        <a href="cart.html" class="action-icon-btn" title="View Cart">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="badge-count cart-badge-count">0</span>
+        </a>
+        <button class="mobile-toggle" aria-label="Toggle Mobile Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-title">Checkout & Order Review</h1>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i>
+        <a href="cart.html">Cart</a>
+        <i class="fas fa-chevron-right" style="font-size: 0.7rem;"></i>
+        <span>Checkout</span>
+      </div>
+    </div>
+  </div>
+
+  <main class="section">
+    <div class="container">
+      
+      <div class="checkout-layout">
+        
+        <!-- Checkout Billing & Shipping Form (Lab 1 & 2 Form Controls) -->
+        <div style="background-color: var(--surface); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-md);">
+          
+          <form id="checkout-form">
+            
+            <h3 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 700; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 0.5rem;">
+              <i class="fas fa-user-circle" style="color: var(--primary);"></i> 1. Contact & Customer Details
+            </h3>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label">First Name *</label>
+                <input type="text" class="form-control" placeholder="e.g. Muhammad" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Last Name *</label>
+                <input type="text" class="form-control" placeholder="e.g. Mohsin" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label">Email Address *</label>
+                <input type="email" class="form-control" placeholder="m.mohsin@example.com" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Phone Number *</label>
+                <input type="tel" class="form-control" placeholder="+92 300 1234567" required>
+              </div>
+            </div>
+
+            <h3 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 700; margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 0.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+              <i class="fas fa-truck" style="color: var(--primary);"></i> 2. Shipping Address
+            </h3>
+
+            <div class="form-group">
+              <label class="form-label">Street Address *</label>
+              <input type="text" class="form-control" placeholder="House / Apartment #, Street Name" required>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label class="form-label">City *</label>
+                <input type="text" class="form-control" placeholder="Islamabad" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Postal / ZIP Code *</label>
+                <input type="text" class="form-control" placeholder="45550" required>
+              </div>
+            </div>
+
+            <h3 style="font-family: var(--font-heading); font-size: 1.35rem; font-weight: 700; margin: 2rem 0 1.5rem; display: flex; align-items: center; gap: 0.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+              <i class="fas fa-credit-card" style="color: var(--primary);"></i> 3. Payment Method
+            </h3>
+
+            <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem;">
+              <label style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); cursor: pointer; background: var(--bg-body);">
+                <input type="radio" name="payment" value="card" checked style="accent-color: var(--primary);">
+                <i class="fas fa-credit-card" style="font-size: 1.2rem; color: var(--primary);"></i>
+                <div>
+                  <strong>Credit / Debit Card</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Visa, MasterCard, UnionPay</div>
+                </div>
+              </label>
+
+              <label style="display: flex; align-items: center; gap: 0.75rem; padding: 1rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); cursor: pointer; background: var(--bg-body);">
+                <input type="radio" name="payment" value="cod" style="accent-color: var(--primary);">
+                <i class="fas fa-money-bill-wave" style="font-size: 1.2rem; color: #166534;"></i>
+                <div>
+                  <strong>Cash on Delivery (COD)</strong>
+                  <div style="font-size: 0.8rem; color: var(--text-muted);">Pay cash when product arrives</div>
+                </div>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" style="height: 50px; font-size: 1.1rem;">
+              <i class="fas fa-check-circle"></i> Place Order Now
+            </button>
+          </form>
+
+        </div>
+
+        <!-- Order Items Summary Sidebar -->
+        <aside class="summary-card">
+          <h3 class="summary-title"><i class="fas fa-receipt"></i> Order Summary</h3>
+          
+          <div id="checkout-summary-list" style="margin-bottom: 1.5rem; border-bottom: 1px solid var(--border-color); padding-bottom: 1rem;">
+            <!-- Dynamically populated cart items from app.js -->
+          </div>
+
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span id="checkout-subtotal" style="font-weight: 700;">$0.00</span>
+          </div>
+
+          <div class="summary-row">
+            <span>Express Shipping</span>
+            <span style="font-weight: 600; color: #166534;">FREE</span>
+          </div>
+
+          <div class="summary-row total">
+            <span>Total Payable</span>
+            <span id="checkout-total" style="color: var(--primary);">$0.00</span>
+          </div>
+        </aside>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="color: white; margin-bottom: 1rem;">
+            <div class="logo-icon"><i class="fas fa-cube"></i></div>
+            LUMINA<span class="dot">.</span>
+          </a>
+          <p style="font-size: 0.9rem; line-height: 1.7;">
+            Encrypted checkout process designed for COMSATS assignment.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="category.html">Categories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="cart.html">View Cart</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Campus Address</h4>
+          <p style="font-size: 0.85rem; line-height: 1.8;">
+            COMSATS University Islamabad
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Lumina Online Store. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
