@@ -247,6 +247,50 @@ const PRODUCTS_DATA = [
       "Features": "Music Rhythm Sync, Screen Reactive Mode, Schedule Timer",
       "Power Supply": "USB-C 24W Power Adapter"
     }
+  },
+  {
+    id: "lumina-powerbank",
+    name: "Lumina Blade 25,000mAh Laptop Power Bank 65W",
+    category: "Accessories",
+    price: 11999,
+    oldPrice: 14499,
+    rating: 4.9,
+    reviews: 82,
+    badge: "POPULAR",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1609592424350-bbd493a1005a?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1609592424350-bbd493a1005a?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "High-capacity 25,000mAh portable power bank with 65W Power Delivery output, smart TFT digital status screen, and aircraft-safe aluminum enclosure.",
+    specs: {
+      "Capacity": "25,000mAh / 92.5Wh (Flight Approved)",
+      "Output Ports": "2x USB-C (65W Max PD) + 1x USB-A (22.5W QC)",
+      "Display": "Color Digital Smart Screen (Watts, Volts, Remaining %)",
+      "Recharge Time": "Fully charged in 90 minutes with 65W charger"
+    }
+  },
+  {
+    id: "lumina-boom",
+    name: "Lumina Pulse Waterproof Portable Bluetooth Speaker",
+    category: "Audio",
+    price: 9499,
+    oldPrice: 11999,
+    rating: 4.8,
+    reviews: 69,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Rugged 30W outdoor portable Bluetooth speaker featuring 360-degree bass radiators, beat-driven RGB lighting rings, and IP67 waterproof floating design.",
+    specs: {
+      "Audio Output": "30W Stereo with Dual Bass Passive Radiators",
+      "Water Resistance": "IP67 Dustproof & Submersible Waterproof",
+      "Battery Life": "Up to 24 Hours Playtime (Fast USB-C Charging)",
+      "Connectivity": "Bluetooth 5.3 + TWS Stereo Pairing"
+    }
   }
 ];
 
