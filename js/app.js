@@ -220,6 +220,28 @@ const PRODUCTS_DATA = [
       "Color Gamut": "99% DCI-P3 / Delta E < 1",
       "Ports": "1x USB-C (90W PD), 2x HDMI 2.1, 1x DisplayPort 1.4"
     }
+  },
+  {
+    id: "lumina-light",
+    name: "Lumina Glow Smart Ambient Lamp & Lightbar",
+    category: "Smart Home",
+    price: 89.99,
+    oldPrice: 119.99,
+    rating: 4.8,
+    reviews: 41,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Dynamic RGBIC ambient desk lamp with music sync, screen color mirroring, smart app control, and Apple Home/Matter integration.",
+    specs: {
+      "Brightness & LEDs": "1200 Lumens / 16 Million RGBIC Colors",
+      "Connectivity": "Wi-Fi 2.4GHz + Bluetooth 5.0 / Matter Supported",
+      "Features": "Music Rhythm Sync, Screen Reactive Mode, Schedule Timer",
+      "Power Supply": "USB-C 24W Power Adapter"
+    }
   }
 ];
 
