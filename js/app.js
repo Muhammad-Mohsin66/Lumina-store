@@ -1,12 +1,17 @@
 
 
+function formatPrice(amount) {
+  if (typeof amount !== "number") amount = parseFloat(amount) || 0;
+  return `Rs. ${Math.round(amount).toLocaleString('en-PK')}`;
+}
+
 const PRODUCTS_DATA = [
   {
     id: "lumina-headphones",
     name: "Lumina Pro Wireless ANC Headphones",
     category: "Audio",
-    price: 249.99,
-    oldPrice: 299.99,
+    price: 24999,
+    oldPrice: 29999,
     rating: 4.9,
     reviews: 128,
     badge: "HOT",
@@ -30,8 +35,8 @@ const PRODUCTS_DATA = [
     id: "lumina-watch",
     name: "Lumina Ultra Smartwatch Series 7",
     category: "Wearables",
-    price: 199.99,
-    oldPrice: 249.99,
+    price: 18499,
+    oldPrice: 22999,
     rating: 4.8,
     reviews: 95,
     badge: "NEW",
@@ -53,8 +58,8 @@ const PRODUCTS_DATA = [
     id: "lumina-book",
     name: "Lumina X1 Carbon Ultrabook 14''",
     category: "Laptops",
-    price: 1299.99,
-    oldPrice: 1499.99,
+    price: 325000,
+    oldPrice: 360000,
     rating: 5.0,
     reviews: 42,
     badge: "FEATURED",
@@ -75,8 +80,8 @@ const PRODUCTS_DATA = [
     id: "lumina-bud",
     name: "Lumina Studio Earbuds Pro",
     category: "Audio",
-    price: 129.99,
-    oldPrice: 159.99,
+    price: 12999,
+    oldPrice: 15999,
     rating: 4.7,
     reviews: 88,
     badge: "SALE",
@@ -97,8 +102,8 @@ const PRODUCTS_DATA = [
     id: "lumina-speaker",
     name: "Lumina Soundbar 360 & Subwoofer",
     category: "Smart Home",
-    price: 349.99,
-    oldPrice: 399.99,
+    price: 54999,
+    oldPrice: 64999,
     rating: 4.8,
     reviews: 64,
     badge: "BESTSELLER",
@@ -118,8 +123,8 @@ const PRODUCTS_DATA = [
     id: "lumina-keyboard",
     name: "Lumina Craft Wireless Mechanical Keyboard",
     category: "Accessories",
-    price: 159.99,
-    oldPrice: 189.99,
+    price: 16499,
+    oldPrice: 19999,
     rating: 4.8,
     reviews: 77,
     badge: "POPULAR",
@@ -139,8 +144,8 @@ const PRODUCTS_DATA = [
     id: "lumina-charger",
     name: "Lumina 100W GaN Fast Charger",
     category: "Accessories",
-    price: 49.99,
-    oldPrice: 69.99,
+    price: 6999,
+    oldPrice: 8999,
     rating: 4.9,
     reviews: 150,
     badge: "SALE",
@@ -160,8 +165,8 @@ const PRODUCTS_DATA = [
     id: "lumina-hub",
     name: "Lumina Smart Hub Display 10''",
     category: "Smart Home",
-    price: 179.99,
-    oldPrice: 219.99,
+    price: 28999,
+    oldPrice: 34999,
     rating: 4.7,
     reviews: 39,
     badge: "NEW",
@@ -181,8 +186,8 @@ const PRODUCTS_DATA = [
     id: "lumina-ring",
     name: "Lumina Smart Health Ring Gen 2",
     category: "Wearables",
-    price: 279.99,
-    oldPrice: 329.99,
+    price: 38999,
+    oldPrice: 45999,
     rating: 4.9,
     reviews: 53,
     badge: "NEW",
@@ -203,8 +208,8 @@ const PRODUCTS_DATA = [
     id: "lumina-monitor",
     name: "Lumina Vision 27'' 4K QD-OLED Studio Monitor",
     category: "Laptops",
-    price: 699.99,
-    oldPrice: 799.99,
+    price: 185000,
+    oldPrice: 210000,
     rating: 4.9,
     reviews: 37,
     badge: "HOT",
@@ -225,8 +230,8 @@ const PRODUCTS_DATA = [
     id: "lumina-light",
     name: "Lumina Glow Smart Ambient Lamp & Lightbar",
     category: "Smart Home",
-    price: 89.99,
-    oldPrice: 119.99,
+    price: 7499,
+    oldPrice: 9999,
     rating: 4.8,
     reviews: 41,
     badge: "NEW",
@@ -248,7 +253,19 @@ const PRODUCTS_DATA = [
 const LuminaStore = {
   getCart() {
     const data = localStorage.getItem("lumina_cart");
-    return data ? JSON.parse(data) : [];
+    if (!data) return [];
+    try {
+      const items = JSON.parse(data);
+      return items.map(item => {
+        const prod = PRODUCTS_DATA.find(p => p.id === item.id);
+        if (prod) {
+          return { ...item, price: prod.price, name: prod.name, image: prod.image, category: prod.category };
+        }
+        return item;
+      });
+    } catch (e) {
+      return [];
+    }
   },
 
   saveCart(cart) {
@@ -379,8 +396,8 @@ function createProductCardHTML(product) {
         </div>
         <div class="product-price-row">
           <div>
-            <span class="product-price">$${product.price.toFixed(2)}</span>
-            ${product.oldPrice ? `<span class="old-price">$${product.oldPrice.toFixed(2)}</span>` : ''}
+            <span class="product-price">${formatPrice(product.price)}</span>
+            ${product.oldPrice ? `<span class="old-price">${formatPrice(product.oldPrice)}</span>` : ''}
           </div>
           <button class="btn btn-primary btn-sm" onclick="LuminaStore.addToCart('${product.id}')">
             <i class="fas fa-shopping-cart"></i> Add
@@ -506,9 +523,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("detail-title").textContent = product.name;
     document.getElementById("detail-category").textContent = product.category;
-    document.getElementById("detail-price").textContent = `$${product.price.toFixed(2)}`;
+    document.getElementById("detail-price").textContent = formatPrice(product.price);
     if (product.oldPrice) {
-      document.getElementById("detail-old-price").textContent = `$${product.oldPrice.toFixed(2)}`;
+      document.getElementById("detail-old-price").textContent = formatPrice(product.oldPrice);
     }
     document.getElementById("detail-description").textContent = product.description;
     document.getElementById("detail-rating").textContent = product.rating;
@@ -636,7 +653,7 @@ function renderCartPage() {
             </div>
           </div>
         </td>
-        <td style="font-weight: 700;">$${item.price.toFixed(2)}</td>
+        <td style="font-weight: 700;">${formatPrice(item.price)}</td>
         <td>
           <div class="quantity-picker" style="width: 100px; height: 36px;">
             <button class="quantity-btn" onclick="updateCartItemQty('${item.id}', ${item.qty - 1})">-</button>
@@ -644,7 +661,7 @@ function renderCartPage() {
             <button class="quantity-btn" onclick="updateCartItemQty('${item.id}', ${item.qty + 1})">+</button>
           </div>
         </td>
-        <td style="font-weight: 700; color: var(--primary);">$${itemSubtotal.toFixed(2)}</td>
+        <td style="font-weight: 700; color: var(--primary);">${formatPrice(itemSubtotal)}</td>
         <td>
           <button class="remove-btn" onclick="LuminaStore.removeFromCart('${item.id}'); renderCartPage();" title="Remove item">
             <i class="fas fa-trash-alt"></i>
@@ -654,9 +671,9 @@ function renderCartPage() {
     `;
   }).join("");
 
-  const shipping = subtotal > 500 ? 0 : 15.00;
-  if (subtotalEl) subtotalEl.textContent = `$${subtotal.toFixed(2)}`;
-  if (totalEl) totalEl.textContent = `$${(subtotal + shipping).toFixed(2)}`;
+  const shipping = subtotal > 5000 ? 0 : 250;
+  if (subtotalEl) subtotalEl.textContent = formatPrice(subtotal);
+  if (totalEl) totalEl.textContent = formatPrice(subtotal + shipping);
 }
 
 function updateCartItemQty(id, newQty) {
@@ -704,14 +721,14 @@ function renderCheckoutPage() {
           <span style="font-weight: 600;">${item.name}</span>
           <span style="color: var(--text-muted);"> x ${item.qty}</span>
         </div>
-        <span style="font-weight: 700;">$${itemTotal.toFixed(2)}</span>
+        <span style="font-weight: 700;">${formatPrice(itemTotal)}</span>
       </div>
     `;
   }).join("");
 
-  const shipping = subtotal > 500 ? 0 : 15.00;
-  document.getElementById("checkout-subtotal").textContent = `$${subtotal.toFixed(2)}`;
-  document.getElementById("checkout-total").textContent = `$${(subtotal + shipping).toFixed(2)}`;
+  const shipping = subtotal > 5000 ? 0 : 250;
+  document.getElementById("checkout-subtotal").textContent = formatPrice(subtotal);
+  document.getElementById("checkout-total").textContent = formatPrice(subtotal + shipping);
 
   const form = document.getElementById("checkout-form");
   if (form) {
@@ -721,7 +738,7 @@ function renderCheckoutPage() {
       localStorage.setItem("lumina_last_order", JSON.stringify({
         orderId: orderId,
         items: cart,
-        total: (subtotal + shipping).toFixed(2),
+        total: formatPrice(subtotal + shipping),
         date: new Date().toLocaleDateString()
       }));
 
