@@ -176,6 +176,50 @@ const PRODUCTS_DATA = [
       "Audio": "Dual 2'' Full Range Drivers + Passive Radiator",
       "Compatibility": "Matter, Zigbee, Apple Home, Google Assistant"
     }
+  },
+  {
+    id: "lumina-ring",
+    name: "Lumina Smart Health Ring Gen 2",
+    category: "Wearables",
+    price: 279.99,
+    oldPrice: 329.99,
+    rating: 4.9,
+    reviews: 53,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-lightweight titanium smart ring with medical-grade biometric sensors for sleep tracking, HRV analysis, and 7-day battery life.",
+    specs: {
+      "Material": "Aerospace-Grade Titanium with PVD Coating",
+      "Sensors": "Optical PPG, Skin Temperature, 3D Accelerometer",
+      "Water Resistance": "10 ATM (100m Submersible)",
+      "Battery Life": "7 Days Continuous Usage + Fast Charging Case"
+    }
+  },
+  {
+    id: "lumina-monitor",
+    name: "Lumina Vision 27'' 4K QD-OLED Studio Monitor",
+    category: "Laptops",
+    price: 699.99,
+    oldPrice: 799.99,
+    rating: 4.9,
+    reviews: 37,
+    badge: "HOT",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Stunning 27-inch 4K QD-OLED display featuring 240Hz refresh rate, 0.03ms response time, 99% DCI-P3 color accuracy, and USB-C 90W power delivery.",
+    specs: {
+      "Panel Type": "Quantum Dot OLED (3840 x 2160)",
+      "Refresh Rate & Response": "240Hz / 0.03ms GtG",
+      "Color Gamut": "99% DCI-P3 / Delta E < 1",
+      "Ports": "1x USB-C (90W PD), 2x HDMI 2.1, 1x DisplayPort 1.4"
+    }
   }
 ];
 
@@ -362,7 +406,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const featuredGrid = document.getElementById("featured-products-grid");
   if (featuredGrid) {
-    featuredGrid.innerHTML = PRODUCTS_DATA.slice(0, 8).map(createProductCardHTML).join("");
+    featuredGrid.innerHTML = PRODUCTS_DATA.map(createProductCardHTML).join("");
   }
 
   const shopGrid = document.getElementById("shop-products-grid");
