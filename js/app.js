@@ -266,6 +266,29 @@ const PRODUCTS_DATA = [
       "Health Tracking": "ECG, SpO2, Heart Rate, Stress & Sleep Analysis",
       "Water Resistance & Battery": "5 ATM + IP68 Water Resistance / 14-Day Battery"
     }
+  },
+  {
+    id: "lumina-headphones",
+    name: "Lumina Aura Wireless ANC Studio Headphones",
+    category: "Audio",
+    price: 29999,
+    oldPrice: 34999,
+    rating: 4.9,
+    reviews: 112,
+    badge: "BESTSELLER",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Flagship over-ear wireless headphones with custom 40mm beryllium drivers, hybrid active noise cancellation, lossless LDAC codec support, and 50 hours of battery life.",
+    specs: {
+      "Acoustic Drivers": "Custom 40mm Beryllium Diaphragm Drivers",
+      "Noise Cancellation": "Hybrid Active Noise Cancellation & Transparency Mode",
+      "Battery & Charging": "Up to 50 Hours Playback (10 min charge = 5 hours play)",
+      "Connectivity & Codecs": "Bluetooth 5.4, LDAC, aptX Adaptive, AAC & 3.5mm Lossless"
+    }
   }
 ];
 
