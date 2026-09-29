@@ -243,6 +243,29 @@ const PRODUCTS_DATA = [
       "Battery Life": "Up to 24 Hours Playtime (Fast USB-C Charging)",
       "Connectivity": "Bluetooth 5.3 + TWS Stereo Pairing"
     }
+  },
+  {
+    id: "lumina-watch",
+    name: "Lumina Chrono Ultra Titanium Smartwatch",
+    category: "Wearables",
+    price: 42999,
+    oldPrice: 49999,
+    rating: 4.9,
+    reviews: 76,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Flagship aerospace-grade titanium smartwatch with sapphire crystal display, dual-frequency GPS, comprehensive heart & SpO2 health tracking, and 14-day battery life.",
+    specs: {
+      "Display": "1.43'' AMOLED Always-On (1000 Nits Sapphire Glass)",
+      "Materials": "Grade 5 Titanium Case with Fluoroelastomer Strap",
+      "Health Tracking": "ECG, SpO2, Heart Rate, Stress & Sleep Analysis",
+      "Water Resistance & Battery": "5 ATM + IP68 Water Resistance / 14-Day Battery"
+    }
   }
 ];
 
