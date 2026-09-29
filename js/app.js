@@ -7,54 +7,6 @@ function formatPrice(amount) {
 
 const PRODUCTS_DATA = [
   {
-    id: "lumina-headphones",
-    name: "Lumina Pro Wireless ANC Headphones",
-    category: "Audio",
-    price: 24999,
-    oldPrice: 29999,
-    rating: 4.9,
-    reviews: 128,
-    badge: "HOT",
-    badgeClass: "",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80"
-    ],
-    description: "Experience acoustic precision with Hybrid Active Noise Cancellation, custom 40mm titanium drivers, and up to 50 hours of wireless battery life.",
-    specs: {
-      "Driver Unit": "40mm Titanium Dynamic",
-      "Frequency Response": "20Hz - 40,000Hz",
-      "Battery Life": "50 Hours (ANC Off), 35 Hours (ANC On)",
-      "Bluetooth Version": "5.3 with LDAC / AAC",
-      "Charging": "USB-C Fast Charging (10 min = 5 hours)"
-    }
-  },
-  {
-    id: "lumina-watch",
-    name: "Lumina Ultra Smartwatch Series 7",
-    category: "Wearables",
-    price: 18499,
-    oldPrice: 22999,
-    rating: 4.8,
-    reviews: 95,
-    badge: "NEW",
-    badgeClass: "badge-new",
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
-    gallery: [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80"
-    ],
-    description: "Premium titanium alloy smartwatch featuring continuous heart rate, SpO2 monitoring, dual-frequency GPS, and 100+ workout modes.",
-    specs: {
-      "Display": "1.95'' AMOLED Sapphire Glass",
-      "Water Resistance": "5 ATM / 50 meters",
-      "Sensors": "Heart Rate, SpO2, ECG, Temperature",
-      "Battery": "Up to 14 Days Typical Usage"
-    }
-  },
-  {
     id: "lumina-book",
     name: "Lumina X1 Carbon Ultrabook 14''",
     category: "Laptops",
@@ -300,13 +252,15 @@ const LuminaStore = {
     if (!data) return [];
     try {
       const items = JSON.parse(data);
-      return items.map(item => {
-        const prod = PRODUCTS_DATA.find(p => p.id === item.id);
-        if (prod) {
-          return { ...item, price: prod.price, name: prod.name, image: prod.image, category: prod.category };
-        }
-        return item;
-      });
+      return items
+        .filter(item => PRODUCTS_DATA.some(p => p.id === item.id))
+        .map(item => {
+          const prod = PRODUCTS_DATA.find(p => p.id === item.id);
+          if (prod) {
+            return { ...item, price: prod.price, name: prod.name, image: prod.image, category: prod.category };
+          }
+          return item;
+        });
     } catch (e) {
       return [];
     }
@@ -357,7 +311,8 @@ const LuminaStore = {
 
   getWishlist() {
     const data = localStorage.getItem("lumina_wishlist");
-    return data ? JSON.parse(data) : [];
+    const ids = data ? JSON.parse(data) : [];
+    return ids.filter(id => PRODUCTS_DATA.some(p => p.id === id));
   },
 
   saveWishlist(wishlist) {
@@ -562,7 +517,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const detailContainer = document.getElementById("product-detail-section");
   if (detailContainer) {
     const urlParams = new URLSearchParams(window.location.search);
-    const prodId = urlParams.get("id") || "lumina-headphones";
+    const prodId = urlParams.get("id") || (PRODUCTS_DATA[0] ? PRODUCTS_DATA[0].id : "lumina-book");
     const product = PRODUCTS_DATA.find(p => p.id === prodId) || PRODUCTS_DATA[0];
 
     document.getElementById("detail-title").textContent = product.name;
