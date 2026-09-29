@@ -289,6 +289,29 @@ const PRODUCTS_DATA = [
       "Battery & Charging": "Up to 50 Hours Playback (10 min charge = 5 hours play)",
       "Connectivity & Codecs": "Bluetooth 5.4, LDAC, aptX Adaptive, AAC & 3.5mm Lossless"
     }
+  },
+  {
+    id: "lumina-tab",
+    name: "Lumina Pad Pro 12.9'' OLED Creative Tablet",
+    category: "Laptops",
+    price: 145000,
+    oldPrice: 165000,
+    rating: 4.9,
+    reviews: 58,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Professional creative tablet featuring 12.9-inch 120Hz tandem OLED display, Lumina Pen Pro active stylus support, high-performance octa-core chipset, and all-day battery life.",
+    specs: {
+      "Display": "12.9'' Ultra Retina Tandem OLED (2732 x 2048, 120Hz)",
+      "Processor & Memory": "Octa-Core AI Chipset / 16GB RAM + 512GB Storage",
+      "Stylus & Accessories": "Lumina Magnetic Wireless Pen & Smart Folio Support",
+      "Battery & OS": "10,200mAh (Up to 14 Hours) / LuminaOS Touch"
+    }
   }
 ];
 
