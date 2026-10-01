@@ -381,6 +381,29 @@ const PRODUCTS_DATA = [
       "Sample Rate & Resolution": "192kHz / 24-bit High-Fidelity Recording",
       "Connectivity": "USB-C Digital & 3-Pin Balanced XLR Outputs + 3.5mm Monitor"
     }
+  },
+  {
+    id: "lumina-mini-pc",
+    name: "Lumina Nova Mini Pro AI Desktop PC",
+    category: "Laptops",
+    price: 165000,
+    oldPrice: 189000,
+    rating: 4.9,
+    reviews: 38,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "High-performance ultra-compact AI workstation featuring AMD Ryzen 9 8945HS processor, integrated Radeon 780M graphics, 32GB DDR5 RAM, and quad 4K display output support.",
+    specs: {
+      "Processor & NPU": "AMD Ryzen 9 8945HS (8 Cores / 16 Threads + 38 TOPS NPU)",
+      "Memory & Storage": "32GB DDR5-5600MHz RAM + 1TB PCIe 4.0 NVMe SSD",
+      "Graphics": "AMD Radeon 780M Integrated Graphics (RDNA 3)",
+      "Ports & Connectivity": "2x USB4 40Gbps, 2x HDMI 2.1, 2.5GbE LAN, Wi-Fi 6E & Bluetooth 5.3"
+    }
   }
 ];
 
