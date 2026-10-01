@@ -312,6 +312,29 @@ const PRODUCTS_DATA = [
       "Stylus & Accessories": "Lumina Magnetic Wireless Pen & Smart Folio Support",
       "Battery & OS": "10,200mAh (Up to 14 Hours) / LuminaOS Touch"
     }
+  },
+  {
+    id: "lumina-mouse",
+    name: "Lumina Apex Master Wireless Ergonomic Mouse",
+    category: "Accessories",
+    price: 14999,
+    oldPrice: 17999,
+    rating: 4.9,
+    reviews: 64,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "High-precision wireless ergonomic mouse featuring electromagnetic MagSpeed scrolling, 8,000 DPI Darkfield sensor, multi-device cross-computer flow, and whisper-quiet click switches.",
+    specs: {
+      "Sensor": "8,000 DPI Darkfield High-Precision Optical Sensor",
+      "Battery Life": "Up to 70 days on full charge (USB-C Quick Charge)",
+      "Connectivity": "Bluetooth Low Energy & 2.4GHz Wireless Receiver (Pair up to 3 devices)",
+      "Ergonomics": "Sculpted ergonomic grip with gesture button & thumb wheel"
+    }
   }
 ];
 
