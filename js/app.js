@@ -358,6 +358,29 @@ const PRODUCTS_DATA = [
       "Battery Life": "Up to 8 Hours Continuous Playback / 48 Hours with Charging Case",
       "Connectivity & Protection": "Bluetooth 5.4, IPX4 Water Resistance, UVA/UVB 100% Protection"
     }
+  },
+  {
+    id: "lumina-mic",
+    name: "Lumina Stream Pro Studio Condenser Microphone",
+    category: "Audio",
+    price: 21999,
+    oldPrice: 25999,
+    rating: 4.8,
+    reviews: 47,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Professional USB & XLR broadcast condenser microphone with 192kHz/24-bit high-resolution audio recording, dual polar patterns, zero-latency headphone monitoring, and integrated shock mount.",
+    specs: {
+      "Acoustic Principle": "25mm Large Studio Condenser Capsule",
+      "Polar Patterns": "Cardioid & Omnidirectional Switchable",
+      "Sample Rate & Resolution": "192kHz / 24-bit High-Fidelity Recording",
+      "Connectivity": "USB-C Digital & 3-Pin Balanced XLR Outputs + 3.5mm Monitor"
+    }
   }
 ];
 
