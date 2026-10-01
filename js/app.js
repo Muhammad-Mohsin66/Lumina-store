@@ -335,6 +335,29 @@ const PRODUCTS_DATA = [
       "Connectivity": "Bluetooth Low Energy & 2.4GHz Wireless Receiver (Pair up to 3 devices)",
       "Ergonomics": "Sculpted ergonomic grip with gesture button & thumb wheel"
     }
+  },
+  {
+    id: "lumina-glasses",
+    name: "Lumina Vision AR Smart Audio Glasses",
+    category: "Wearables",
+    price: 49999,
+    oldPrice: 59999,
+    rating: 4.9,
+    reviews: 51,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1593121925328-369cc8459c08?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Next-generation smart eyewear with integrated micro-OLED heads-up display, directional open-ear acoustic speakers, voice AI assistant, and lightweight titanium frame.",
+    specs: {
+      "Display": "Dual Micro-OLED Waveguide Heads-Up Display (1080p equivalent)",
+      "Audio": "Open-Ear Directional Stereo Speakers with Dual Beamforming Mics",
+      "Battery Life": "Up to 8 Hours Continuous Playback / 48 Hours with Charging Case",
+      "Connectivity & Protection": "Bluetooth 5.4, IPX4 Water Resistance, UVA/UVB 100% Protection"
+    }
   }
 ];
 
