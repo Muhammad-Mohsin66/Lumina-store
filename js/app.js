@@ -427,6 +427,29 @@ const PRODUCTS_DATA = [
       "Processor & Storage": "Snapdragon XR2+ Gen 2 / 16GB RAM + 512GB Storage",
       "Battery & Weight": "Up to 3.5 Hours Playback / 420g Ultra-Balanced Frame"
     }
+  },
+  {
+    id: "lumina-projector",
+    name: "Lumina Beam Ultra 4K Smart Laser Projector",
+    category: "Smart Home",
+    price: 119999,
+    oldPrice: 135000,
+    rating: 4.9,
+    reviews: 52,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Flagship 4K UHD smart laser projector featuring 3,000 ANSI lumens, HDR10+, motorized auto-focus & keystone alignment, built-in Harman Kardon acoustics, and Google TV integration.",
+    specs: {
+      "Resolution & Brightness": "4K UHD (3840 x 2160) / 3,000 ANSI Lumens",
+      "Projection Size": "60'' to 200'' Ultra-Short Throw / Precision Autofocus",
+      "Audio System": "Dual 15W Harman Kardon Speakers with Dolby Audio",
+      "Connectivity": "Wi-Fi 6, Bluetooth 5.2, 2x HDMI 2.1 (eARC), USB 3.0"
+    }
   }
 ];
 
