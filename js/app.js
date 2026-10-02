@@ -404,6 +404,29 @@ const PRODUCTS_DATA = [
       "Graphics": "AMD Radeon 780M Integrated Graphics (RDNA 3)",
       "Ports & Connectivity": "2x USB4 40Gbps, 2x HDMI 2.1, 2.5GbE LAN, Wi-Fi 6E & Bluetooth 5.3"
     }
+  },
+  {
+    id: "lumina-vr",
+    name: "Lumina Horizon 4K Spatial VR Headset",
+    category: "Wearables",
+    price: 89999,
+    oldPrice: 105000,
+    rating: 4.9,
+    reviews: 44,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1592478411213-6153e4ebc07d?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Next-generation standalone spatial VR headset featuring dual 4K micro-OLED displays, precision inside-out tracking, spatial audio, and ultra-lightweight ergonomic counter-balance design.",
+    specs: {
+      "Display": "Dual 4K Micro-OLED (120Hz Refresh Rate, 110° FOV)",
+      "Tracking & Audio": "6 DoF Inside-Out Optical Tracking & Spatial 3D Audio",
+      "Processor & Storage": "Snapdragon XR2+ Gen 2 / 16GB RAM + 512GB Storage",
+      "Battery & Weight": "Up to 3.5 Hours Playback / 420g Ultra-Balanced Frame"
+    }
   }
 ];
 
