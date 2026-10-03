@@ -473,6 +473,29 @@ const PRODUCTS_DATA = [
       "Transmission & Range": "12km FHD Video Transmission (O3+ Technology)",
       "Intelligent Features": "Omnidirectional Obstacle Sensing & AI Subject Tracking"
     }
+  },
+  {
+    id: "lumina-cam",
+    name: "Lumina Sentinel 4K AI Outdoor Security Camera",
+    category: "Smart Home",
+    price: 18999,
+    oldPrice: 22999,
+    rating: 4.8,
+    reviews: 63,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Weatherproof 4K HDR smart security camera with solar charging support, color night vision, AI person and vehicle detection, two-way intercom, and local encrypted storage.",
+    specs: {
+      "Video & Optics": "4K Ultra HD (3840 x 2160) with 140° Ultra-Wide FOV",
+      "Night Vision & Lighting": "Full Color Night Vision + 600-Lumen Motion Spotlight",
+      "Power & Battery": "Integrated Solar Panel + 10,000mAh Battery (365-Day Power)",
+      "Protection & Storage": "IP67 Weatherproof / MicroSD up to 256GB + Cloud Backup"
+    }
   }
 ];
 
