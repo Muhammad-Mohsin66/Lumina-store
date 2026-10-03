@@ -496,6 +496,29 @@ const PRODUCTS_DATA = [
       "Power & Battery": "Integrated Solar Panel + 10,000mAh Battery (365-Day Power)",
       "Protection & Storage": "IP67 Weatherproof / MicroSD up to 256GB + Cloud Backup"
     }
+  },
+  {
+    id: "lumina-blade-pro",
+    name: "Lumina Blade Pro 16'' RTX 4080 Gaming & Studio Laptop",
+    category: "Laptops",
+    price: 395000,
+    oldPrice: 435000,
+    rating: 5.0,
+    reviews: 34,
+    badge: "FEATURED",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Extreme performance powerhouse engineered with Intel Core i9-14900HX, NVIDIA GeForce RTX 4080 12GB GDDR6, 64GB DDR5 RAM, and a breathtaking 16-inch 240Hz Mini-LED display.",
+    specs: {
+      "Processor": "Intel Core i9-14900HX (24 Cores / 32 Threads, up to 5.8 GHz)",
+      "Graphics & Display": "NVIDIA GeForce RTX 4080 12GB GDDR6 / 16'' Mini-LED 240Hz (1000 Nits)",
+      "Memory & Storage": "64GB DDR5-5600MHz RAM + 2TB PCIe 4.0 NVMe SSD",
+      "Cooling & Battery": "Vapor Chamber Liquid Metal Cooling / 99.9Wh Battery (Flight Approved)"
+    }
   }
 ];
 
