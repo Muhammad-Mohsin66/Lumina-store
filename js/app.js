@@ -450,6 +450,29 @@ const PRODUCTS_DATA = [
       "Audio System": "Dual 15W Harman Kardon Speakers with Dolby Audio",
       "Connectivity": "Wi-Fi 6, Bluetooth 5.2, 2x HDMI 2.1 (eARC), USB 3.0"
     }
+  },
+  {
+    id: "lumina-drone",
+    name: "Lumina SkyView 4K Pro GPS Foldable Drone",
+    category: "Accessories",
+    price: 74999,
+    oldPrice: 89999,
+    rating: 4.9,
+    reviews: 48,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-compact foldable quadcopter drone featuring 4K/60fps HDR video, 3-axis mechanical gimbal, omnidirectional obstacle avoidance, 12km transmission range, and 38-minute flight time.",
+    specs: {
+      "Camera & Gimbal": "4K/60fps HDR (1/1.3-inch CMOS) + 3-Axis Mechanical Gimbal",
+      "Flight Performance": "Up to 38 Mins Flight Time / Level 5 Wind Resistance",
+      "Transmission & Range": "12km FHD Video Transmission (O3+ Technology)",
+      "Intelligent Features": "Omnidirectional Obstacle Sensing & AI Subject Tracking"
+    }
   }
 ];
 
