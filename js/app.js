@@ -542,6 +542,29 @@ const PRODUCTS_DATA = [
       "Frequency Response": "48Hz - 22kHz Flat Acoustic Response",
       "Connectivity": "Balanced 1/4'' TRS, RCA, 3.5mm AUX & Bluetooth 5.3 aptX HD"
     }
+  },
+  {
+    id: "lumina-halo-band",
+    name: "Lumina Halo AI Biometric Recovery & Fitness Smart Band",
+    category: "Wearables",
+    price: 19999,
+    oldPrice: 24999,
+    rating: 4.8,
+    reviews: 71,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1510017803434-a899398421b3?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Screenless ultra-lightweight biometric smart band designed for 24/7 continuous health tracking, HRV strain analysis, deep sleep staging, skin temperature metrics, and 10-day battery life.",
+    specs: {
+      "Biometric Sensors": "5-LED PPG Sensor, Skin Temp, EDA Stress & 3D Gyro",
+      "Design & Comfort": "Screen-free Featherweight (21g) with Breathable ProKnit Strap",
+      "Battery Life": "Up to 10 Days Continuous Tracking + Wireless Slide-on Battery Pack",
+      "Durability": "5 ATM Water-Resistant (Safe for Swimming & Showers)"
+    }
   }
 ];
 
