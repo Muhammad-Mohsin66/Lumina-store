@@ -519,6 +519,29 @@ const PRODUCTS_DATA = [
       "Memory & Storage": "64GB DDR5-5600MHz RAM + 2TB PCIe 4.0 NVMe SSD",
       "Cooling & Battery": "Vapor Chamber Liquid Metal Cooling / 99.9Wh Battery (Flight Approved)"
     }
+  },
+  {
+    id: "lumina-monitors",
+    name: "Lumina Wave Hi-Fi Desktop Studio Reference Monitors",
+    category: "Audio",
+    price: 36999,
+    oldPrice: 42999,
+    rating: 4.9,
+    reviews: 57,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Pair of premium bi-amplified active studio reference monitors featuring 5-inch Kevlar woofers, 1-inch silk dome tweeters, Bluetooth 5.3 wireless streaming, and balanced TRS inputs.",
+    specs: {
+      "Drivers": "5'' Woven Kevlar Low-Frequency Woofer + 1'' Silk Dome Tweeter",
+      "Power Output": "120W Total RMS (60W per speaker) Class-D Bi-Amplifier",
+      "Frequency Response": "48Hz - 22kHz Flat Acoustic Response",
+      "Connectivity": "Balanced 1/4'' TRS, RCA, 3.5mm AUX & Bluetooth 5.3 aptX HD"
+    }
   }
 ];
 
