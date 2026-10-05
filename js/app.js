@@ -609,6 +609,28 @@ const PRODUCTS_DATA = [
       "Ports": "2x 10GbE Ports + 4x 2.5GbE Ports per Node",
       "Security": "LuminaShield AI Real-time Threat Protection & Parental Controls"
     }
+  },
+  {
+    id: "lumina-ergo-chair",
+    name: "Lumina Motion Pro Executive Ergonomic Desk Chair",
+    category: "Accessories",
+    price: 54999,
+    oldPrice: 64999,
+    rating: 4.9,
+    reviews: 58,
+    badge: "POPULAR",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ergonomic mesh office chair engineered with dynamic auto-adjusting lumbar support, 4D multi-directional armrests, breathable Italian mesh, and synchronous recline mechanism.",
+    specs: {
+      "Lumbar Support": "Dynamic Self-Adjusting Lower Lumbar Matrix",
+      "Armrests": "4D Height, Depth, Angle & Width Adjustable",
+      "Material": "Ultra-Breathable Italian Wintex Mesh & Alloy Base",
+      "Max Weight & Recline": "Up to 150 kg (330 lbs) / 135° Locking Tilt Recline"
+    }
   }
 ];
 
