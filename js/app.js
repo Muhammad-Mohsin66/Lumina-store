@@ -587,6 +587,28 @@ const PRODUCTS_DATA = [
       "Display Support": "Dual 4K @ 60Hz or Single 8K @ 30Hz",
       "Enclosure": "Solid Anodized Aluminum Enclosure with Thermal Vents"
     }
+  },
+  {
+    id: "lumina-mesh-router",
+    name: "Lumina NetMesh Pro Tri-Band Wi-Fi 7 Router System",
+    category: "Smart Home",
+    price: 62999,
+    oldPrice: 74999,
+    rating: 4.9,
+    reviews: 45,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-fast Wi-Fi 7 mesh system delivering up to 19Gbps speeds across 320MHz channels, seamless whole-home coverage up to 6,000 sq ft, 10GbE WAN/LAN ports, and AI network security.",
+    specs: {
+      "Speed & Standards": "Tri-Band Wi-Fi 7 (BE19000) with 320MHz Channel Width",
+      "Coverage": "Up to 6,000 sq ft with Multi-Link Operation (MLO)",
+      "Ports": "2x 10GbE Ports + 4x 2.5GbE Ports per Node",
+      "Security": "LuminaShield AI Real-time Threat Protection & Parental Controls"
+    }
   }
 ];
 
