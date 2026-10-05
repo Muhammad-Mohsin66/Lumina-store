@@ -565,6 +565,28 @@ const PRODUCTS_DATA = [
       "Battery Life": "Up to 10 Days Continuous Tracking + Wireless Slide-on Battery Pack",
       "Durability": "5 ATM Water-Resistant (Safe for Swimming & Showers)"
     }
+  },
+  {
+    id: "lumina-dock-station",
+    name: "Lumina Thunderbolt 4 Pro Docking Station 16-in-1",
+    category: "Accessories",
+    price: 48999,
+    oldPrice: 56999,
+    rating: 4.9,
+    reviews: 39,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Comprehensive 16-in-1 Thunderbolt 4 workspace dock delivering 96W power delivery, dual 4K/8K display output, 2.5Gb Ethernet, UHS-II SD card reader, and ultra-fast 40Gbps data transfer.",
+    specs: {
+      "Ports": "2x Thunderbolt 4 (40Gbps), 4x USB-A 10Gbps, 2x HDMI 2.1, 1x DP 1.4, 2.5G LAN",
+      "Power Delivery": "96W Host Charging + 15W Downstream Ports",
+      "Display Support": "Dual 4K @ 60Hz or Single 8K @ 30Hz",
+      "Enclosure": "Solid Anodized Aluminum Enclosure with Thermal Vents"
+    }
   }
 ];
 
