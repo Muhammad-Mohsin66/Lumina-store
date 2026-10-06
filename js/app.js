@@ -654,8 +654,32 @@ const PRODUCTS_DATA = [
       "Connectivity": "Dual USB-C Full-Featured + Mini HDMI 2.1",
       "Stand & Design": "360° Rotating Ergonomic Kickstand / Ultra-Slim 9mm Profile"
     }
+  },
+  {
+    id: "lumina-ai-companion",
+    name: "Lumina Sphere AI Desktop Companion & Smart Speaker",
+    category: "Smart Home",
+    price: 24999,
+    oldPrice: 29999,
+    rating: 4.9,
+    reviews: 33,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Futuristic spherical desktop AI companion featuring a circular AMOLED display, 360-degree spatial audio, quad microphone array, and expressive voice & gesture interactions.",
+    specs: {
+      "Display & Expressiveness": "2.1'' Circular Touch AMOLED (Mood Animations & Smart Widgets)",
+      "Audio System": "360° Spatial Sound with Dynamic Room Tuning & Quad Array Mics",
+      "Connectivity & AI": "Wi-Fi 6E, Bluetooth 5.4, On-device Local AI Processing Engine",
+      "Power": "USB-C Fast Charging + 12-Hour Built-in Battery Backup"
+    }
   }
 ];
+
 
 
 const LuminaStore = {
