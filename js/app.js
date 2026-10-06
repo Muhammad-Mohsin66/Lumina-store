@@ -631,8 +631,32 @@ const PRODUCTS_DATA = [
       "Material": "Ultra-Breathable Italian Wintex Mesh & Alloy Base",
       "Max Weight & Recline": "Up to 150 kg (330 lbs) / 135° Locking Tilt Recline"
     }
+  },
+  {
+    id: "lumina-dual-screen",
+    name: "Lumina Edge 15.6'' Dual-Screen Portable OLED Monitor",
+    category: "Accessories",
+    price: 89999,
+    oldPrice: 105000,
+    rating: 5.0,
+    reviews: 29,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Innovative dual 15.6-inch 4K OLED touchscreen portable monitor with 360-degree folding kickstand, single USB-C cable operation, and 100% DCI-P3 color gamut.",
+    specs: {
+      "Display": "Dual 15.6'' 4K OLED (3840 x 2160 x 2) Touchscreens",
+      "Brightness & Color": "500 Nits HDR / 100% DCI-P3 / 1ms Response Time",
+      "Connectivity": "Dual USB-C Full-Featured + Mini HDMI 2.1",
+      "Stand & Design": "360° Rotating Ergonomic Kickstand / Ultra-Slim 9mm Profile"
+    }
   }
 ];
+
 
 const LuminaStore = {
   getCart() {
