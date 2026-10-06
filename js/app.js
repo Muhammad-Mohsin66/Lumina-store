@@ -677,8 +677,32 @@ const PRODUCTS_DATA = [
       "Connectivity & AI": "Wi-Fi 6E, Bluetooth 5.4, On-device Local AI Processing Engine",
       "Power": "USB-C Fast Charging + 12-Hour Built-in Battery Backup"
     }
+  },
+  {
+    id: "lumina-pulse-headset",
+    name: "Lumina Pulse Max Wireless Planar Magnetic Gaming Headset",
+    category: "Audio",
+    price: 34999,
+    oldPrice: 39999,
+    rating: 5.0,
+    reviews: 41,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Audiophile-grade wireless planar magnetic gaming headset engineered with 90mm planar drivers, ultra-low latency 2.4GHz connection, broadcast-quality detachable mic, and Dolby Atmos spatial audio.",
+    specs: {
+      "Drivers": "90mm Planar Magnetic Transducers",
+      "Wireless & Latency": "2.4GHz Ultra-Low Latency (<15ms) + Bluetooth 5.3",
+      "Battery Life": "Up to 80 Hours Continuous Playtime",
+      "Microphone": "Detachable Broadcast-Grade Cardioid Condenser Mic"
+    }
   }
 ];
+
 
 
 
