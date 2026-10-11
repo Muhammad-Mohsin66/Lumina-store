@@ -700,6 +700,29 @@ const PRODUCTS_DATA = [
       "Battery Life": "Up to 80 Hours Continuous Playtime",
       "Microphone": "Detachable Broadcast-Grade Cardioid Condenser Mic"
     }
+  },
+  {
+    id: "lumina-apex-watch",
+    name: "Lumina Apex Ultra Titanium Smartwatch",
+    category: "Wearables",
+    price: 38999,
+    oldPrice: 44999,
+    rating: 4.9,
+    reviews: 52,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Aerospace-grade titanium smartwatch featuring dual-frequency GPS, sapphire crystal display, ECG health monitoring, offline topographic mapping, and up to 14 days battery life.",
+    specs: {
+      "Case & Build": "49mm Grade 5 Aerospace Titanium + Sapphire Crystal Glass",
+      "Display": "1.96'' Always-On AMOLED / 3000 nits Peak Outdoor Brightness",
+      "Sensors & Health": "BioTracker 5.0 (ECG, SpO2, Heart Rate, Skin Temp & Sleep Stages)",
+      "Battery & Rating": "Up to 14 Days Normal Use / 10 ATM 100m Water Resistance"
+    }
   }
 ];
 
