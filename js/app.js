@@ -723,6 +723,29 @@ const PRODUCTS_DATA = [
       "Sensors & Health": "BioTracker 5.0 (ECG, SpO2, Heart Rate, Skin Temp & Sleep Stages)",
       "Battery & Rating": "Up to 14 Days Normal Use / 10 ATM 100m Water Resistance"
     }
+  },
+  {
+    id: "lumina-horizon-touch",
+    name: "Lumina Horizon 16'' 4K OLED Portable Touch Monitor",
+    category: "Laptops",
+    price: 48999,
+    oldPrice: 54999,
+    rating: 4.9,
+    reviews: 29,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-thin 16-inch 4K UHD OLED touchscreen monitor with 100% DCI-P3 color gamut, dual USB-C Thunderbolt connectivity, stylus pen support, and integrated magnetic kickstand cover.",
+    specs: {
+      "Display Panel": "16.0'' 4K UHD (3840x2400) OLED 10-Point Multi-Touch",
+      "Color Accuracy": "100% DCI-P3 / 500 nits HDR Peak Brightness",
+      "Connectivity": "Dual USB-C (Thunderbolt 4 / DisplayPort) + Mini HDMI 2.0",
+      "Design & Weight": "CNC Aluminum Chassis / 780g Ultra-Portable Profile"
+    }
   }
 ];
 
