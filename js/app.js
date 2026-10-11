@@ -746,6 +746,29 @@ const PRODUCTS_DATA = [
       "Connectivity": "Dual USB-C (Thunderbolt 4 / DisplayPort) + Mini HDMI 2.0",
       "Design & Weight": "CNC Aluminum Chassis / 780g Ultra-Portable Profile"
     }
+  },
+  {
+    id: "lumina-aurora-tower",
+    name: "Lumina Aurora RGB Smart Ambient Light Towers (Pair)",
+    category: "Smart Home",
+    price: 17999,
+    oldPrice: 21999,
+    rating: 4.8,
+    reviews: 36,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Dual smart ARGB ambient light towers with real-time sound reactivity, PC screen sync, Apple HomeKit / Matter compatibility, and 16 million customizable dynamic gradient colors.",
+    specs: {
+      "Lighting & Effects": "16M ARGB Flowing Colors with 40+ Dynamic Scene Presets",
+      "Audio Reaction": "Built-in High-Sensitivity Acoustic Pickup Sensor",
+      "Smart Ecosystem": "Matter, Apple HomeKit, Google Home & Amazon Alexa",
+      "Connectivity": "Wi-Fi 2.4GHz + Bluetooth 5.2 / Lumina Desktop Sync App"
+    }
   }
 ];
 
