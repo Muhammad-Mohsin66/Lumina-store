@@ -792,6 +792,29 @@ const PRODUCTS_DATA = [
       "Build & Materials": "Space Gray CNC Aluminum Alloy with Silicone Magnetic Pads",
       "Box Contents": "3-in-1 Charging Dock, 45W GaN USB-C Adapter & Braided Cable"
     }
+  },
+  {
+    id: "lumina-pureair-pro",
+    name: "Lumina PureAir Pro Smart True HEPA Air Purifier",
+    category: "Smart Home",
+    price: 29999,
+    oldPrice: 34999,
+    rating: 4.9,
+    reviews: 37,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-quiet smart air purifier featuring Medical-Grade True HEPA H13 filtration, real-time laser PM2.5 air index display, 360-degree dual air intake, and Apple Home & Matter compatibility.",
+    specs: {
+      "Filtration System": "3-Stage True HEPA H13 + Activated Carbon (99.97% 0.1μm Capture)",
+      "Coverage & Clean Rate": "Covers up to 650 sq ft in 20 mins / CADR 400 m³/h",
+      "Sensors & Display": "Laser PM2.5 Particle Sensor with Ambient LED AQI Ring",
+      "Noise & Connectivity": "Whisper-quiet 21dB Sleep Mode / Wi-Fi & Matter Enabled"
+    }
   }
 ];
 
