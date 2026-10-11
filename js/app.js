@@ -815,6 +815,29 @@ const PRODUCTS_DATA = [
       "Sensors & Display": "Laser PM2.5 Particle Sensor with Ambient LED AQI Ring",
       "Noise & Connectivity": "Whisper-quiet 21dB Sleep Mode / Wi-Fi & Matter Enabled"
     }
+  },
+  {
+    id: "lumina-keypro-gasket",
+    name: "Lumina KeyPro 75 Wireless Gasket-Mount Mechanical Keyboard",
+    category: "Accessories",
+    price: 21999,
+    oldPrice: 26999,
+    rating: 5.0,
+    reviews: 46,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Enthusiast-grade 75% mechanical keyboard featuring gasket-mounted acoustic sound dampening, pre-lubed switches, CNC aluminum volume knob, South-facing RGB, and tri-mode wireless connectivity.",
+    specs: {
+      "Mounting Structure": "Gasket-Mounted Design with Poron Foam & IXPE Switch Pads",
+      "Switches & Sockets": "Pre-Lubed Lumina Crystal Linear Switches / Hot-Swappable 5-Pin",
+      "Connectivity": "Tri-Mode (Bluetooth 5.3, 2.4GHz Low Latency & USB-C Wired)",
+      "Battery & Lighting": "4000mAh Battery (Up to 300 Hours) / Per-Key South-Facing RGB"
+    }
   }
 ];
 
