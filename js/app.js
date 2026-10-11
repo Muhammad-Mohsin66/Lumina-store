@@ -769,6 +769,29 @@ const PRODUCTS_DATA = [
       "Smart Ecosystem": "Matter, Apple HomeKit, Google Home & Amazon Alexa",
       "Connectivity": "Wi-Fi 2.4GHz + Bluetooth 5.2 / Lumina Desktop Sync App"
     }
+  },
+  {
+    id: "lumina-magflow-station",
+    name: "Lumina MagFlow 3-in-1 Foldable Qi2 Wireless Charging Station",
+    category: "Accessories",
+    price: 13999,
+    oldPrice: 16999,
+    rating: 4.9,
+    reviews: 43,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1622445262464-84b14e32452e?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1622445262464-84b14e32452e?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Premium foldable 3-in-1 wireless charging dock engineered with official Qi2 15W magnetic fast charging, aerospace CNC aluminum body, multi-device protection, and compact travel folio design.",
+    specs: {
+      "Wireless Standard": "Certified Qi2 & MagSafe Fast Wireless Charging (15W Max)",
+      "Charging Array": "Simultaneous 3-Device (Phone 15W + Watch 5W + Earbuds 5W)",
+      "Build & Materials": "Space Gray CNC Aluminum Alloy with Silicone Magnetic Pads",
+      "Box Contents": "3-in-1 Charging Dock, 45W GaN USB-C Adapter & Braided Cable"
+    }
   }
 ];
 
