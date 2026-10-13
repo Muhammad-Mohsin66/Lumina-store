@@ -861,6 +861,29 @@ const PRODUCTS_DATA = [
       "Connectivity": "Tri-Mode (2.4GHz Ultra-Fast Wireless, Bluetooth 5.3 & USB-C Wired)",
       "Battery & Customization": "1200mAh Battery (Up to 28 Hours) / 4 Remappable Back Paddles"
     }
+  },
+  {
+    id: "lumina-zenith-dac",
+    name: "Lumina Zenith Hi-Res Wireless DAC & Headphone Amp",
+    category: "Audio",
+    price: 24999,
+    oldPrice: 28999,
+    rating: 4.9,
+    reviews: 36,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Audiophile-grade portable DAC and balanced headphone amplifier with dual ESS Sabre ES9038Q2M DAC chips, DSD512 / MQA decoding, Bluetooth 5.4 LDAC, and 4.4mm balanced output.",
+    specs: {
+      "DAC Architecture": "Dual ESS Sabre ES9038Q2M High-Resolution DAC Chips",
+      "Decoding Support": "PCM up to 768kHz/32-Bit, Native DSD512 & MQA Full Decoder",
+      "Outputs": "4.4mm Pentaconn Balanced + 3.5mm Single-Ended (1200mW Peak)",
+      "Wireless & Battery": "Bluetooth 5.4 (LDAC, aptX HD) / 4000mAh (Up to 15 Hours Playback)"
+    }
   }
 ];
 
