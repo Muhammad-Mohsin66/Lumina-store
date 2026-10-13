@@ -884,6 +884,29 @@ const PRODUCTS_DATA = [
       "Outputs": "4.4mm Pentaconn Balanced + 3.5mm Single-Ended (1200mW Peak)",
       "Wireless & Battery": "Bluetooth 5.4 (LDAC, aptX HD) / 4000mAh (Up to 15 Hours Playback)"
     }
+  },
+  {
+    id: "lumina-action-cam",
+    name: "Lumina Action 5K Ultra Dual-Screen Waterproof Camera",
+    category: "Accessories",
+    price: 34999,
+    oldPrice: 39999,
+    rating: 4.9,
+    reviews: 43,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Professional 5K/60fps ultra-wide action camera featuring dual full-color OLED displays, 6-axis RockSteady 3.0 stabilization, 10m waterproof bare-body casing, and AI voice activation.",
+    specs: {
+      "Optics & Sensor": "5K 60fps / 4K 120fps HDR (1/1.3-inch CMOS with f/2.8 lens)",
+      "Stabilization": "6-Axis RockSteady 3.0 + 360° HorizonSteady",
+      "Dual Displays": "2.25'' Rear OLED Touchscreen + 1.4'' Front Preview Display",
+      "Durability & Battery": "10m Waterproof without Housing / 1770mAh Extreme Cold Battery"
+    }
   }
 ];
 
