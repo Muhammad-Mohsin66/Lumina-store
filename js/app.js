@@ -838,6 +838,29 @@ const PRODUCTS_DATA = [
       "Connectivity": "Tri-Mode (Bluetooth 5.3, 2.4GHz Low Latency & USB-C Wired)",
       "Battery & Lighting": "4000mAh Battery (Up to 300 Hours) / Per-Key South-Facing RGB"
     }
+  },
+  {
+    id: "lumina-apex-controller",
+    name: "Lumina Apex Elite Wireless Tri-Mode Gaming Controller",
+    category: "Accessories",
+    price: 18999,
+    oldPrice: 22999,
+    rating: 4.9,
+    reviews: 54,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Pro-grade wireless controller engineered with Hall Effect anti-drift magnetic joysticks, mechanical microswitch tactile buttons, interchangeable thumbsticks, adjustable hair triggers, and 1000Hz polling rate.",
+    specs: {
+      "Joysticks & Triggers": "Hall Effect Electromagnetic Anti-Drift Sticks & 2-Stage Hair Triggers",
+      "Switches & Polling": "Mecha-Tactile Face Buttons (0.6mm Actuation) / 1000Hz Polling Rate",
+      "Connectivity": "Tri-Mode (2.4GHz Ultra-Fast Wireless, Bluetooth 5.3 & USB-C Wired)",
+      "Battery & Customization": "1200mAh Battery (Up to 28 Hours) / 4 Remappable Back Paddles"
+    }
   }
 ];
 
