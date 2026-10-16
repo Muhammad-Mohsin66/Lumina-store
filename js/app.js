@@ -953,6 +953,29 @@ const PRODUCTS_DATA = [
       "Endurance Metrics": "VO2 Max, HRV Recovery, Lactate Threshold & 150+ Sports Modes",
       "Battery & Water Resistance": "Up to 12 Days (40 Hours Full GPS) / 5 ATM Swim-Proof (50m)"
     }
+  },
+  {
+    id: "lumina-aerobook-15",
+    name: "Lumina AeroBook 15 Air Ultra-Slim Titanium Laptop",
+    category: "Laptops",
+    price: 275000,
+    oldPrice: 310000,
+    rating: 4.9,
+    reviews: 47,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Precision-crafted ultralight 15.3-inch laptop featuring aerospace titanium chassis, Intel Core Ultra 9 processor with integrated AI NPU, 3.2K 120Hz OLED display, and up to 22 hours of battery life.",
+    specs: {
+      "Processor & AI": "Intel Core Ultra 9 185H (16 Cores + Dual Gen3 NPU Engines)",
+      "Memory & Storage": "32GB LPDDR5X-7467MHz + 1TB PCIe 4.0 NVMe SSD",
+      "Display": "15.3'' 3.2K (3200x2000) 120Hz Lumina PureColor OLED (500 Nits)",
+      "Chassis & Battery": "1.18 kg Aerospace Titanium Alloy / 80Wh Battery (22 Hours Life)"
+    }
   }
 ];
 
