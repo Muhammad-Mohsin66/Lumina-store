@@ -930,6 +930,29 @@ const PRODUCTS_DATA = [
       "Durability & Rating": "IP65 Water & Dust Resistant, 3-Meter Shockproof Drop Armor",
       "Compatibility & Security": "Hardware AES-256 Encryption / macOS, Windows, iPadOS & Linux"
     }
+  },
+  {
+    id: "lumina-aero-sport",
+    name: "Lumina Aero Sport GPS Ultra-Endurance Smartwatch",
+    category: "Wearables",
+    price: 32999,
+    oldPrice: 37999,
+    rating: 4.9,
+    reviews: 61,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Lightweight multi-sport GPS watch featuring 1.78-inch Retina AMOLED display, dual-frequency satellite tracking, VO2 max endurance metrics, 5ATM swim-proofing, and 12-day battery life.",
+    specs: {
+      "Display": "1.78'' Retina AMOLED (1,000 Nits Outdoor Sunlight Mode)",
+      "GNSS & Tracking": "Dual-Band Multi-Satellite GPS (L1+L5), GLONASS & Galileo",
+      "Endurance Metrics": "VO2 Max, HRV Recovery, Lactate Threshold & 150+ Sports Modes",
+      "Battery & Water Resistance": "Up to 12 Days (40 Hours Full GPS) / 5 ATM Swim-Proof (50m)"
+    }
   }
 ];
 
