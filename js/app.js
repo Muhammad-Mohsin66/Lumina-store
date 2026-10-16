@@ -907,6 +907,29 @@ const PRODUCTS_DATA = [
       "Dual Displays": "2.25'' Rear OLED Touchscreen + 1.4'' Front Preview Display",
       "Durability & Battery": "10m Waterproof without Housing / 1770mAh Extreme Cold Battery"
     }
+  },
+  {
+    id: "lumina-velocity-ssd",
+    name: "Lumina Velocity Pro 2TB Rugged NVMe USB4 Portable SSD",
+    category: "Accessories",
+    price: 36999,
+    oldPrice: 42999,
+    rating: 4.9,
+    reviews: 58,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1544652478-6653e09f18a2?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-fast 2TB rugged external SSD engineered with USB4 & Thunderbolt 4 architecture delivering blazing speeds up to 3,800MB/s, IP65 water/dust resistance, and hardware AES-256 encryption.",
+    specs: {
+      "Capacity & Bus": "2TB High-Speed NVMe 3D TLC / USB4 & Thunderbolt 4 (40Gbps)",
+      "Read & Write Speeds": "Up to 3,800 MB/s Sequential Read / 3,500 MB/s Write",
+      "Durability & Rating": "IP65 Water & Dust Resistant, 3-Meter Shockproof Drop Armor",
+      "Compatibility & Security": "Hardware AES-256 Encryption / macOS, Windows, iPadOS & Linux"
+    }
   }
 ];
 
