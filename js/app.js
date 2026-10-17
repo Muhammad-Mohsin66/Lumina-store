@@ -976,6 +976,29 @@ const PRODUCTS_DATA = [
       "Display": "15.3'' 3.2K (3200x2000) 120Hz Lumina PureColor OLED (500 Nits)",
       "Chassis & Battery": "1.18 kg Aerospace Titanium Alloy / 80Wh Battery (22 Hours Life)"
     }
+  },
+  {
+    id: "lumina-aerobuds-ultra",
+    name: "Lumina AeroBuds Ultra True Wireless Spatial ANC Earbuds",
+    category: "Audio",
+    price: 24999,
+    oldPrice: 29999,
+    rating: 4.9,
+    reviews: 73,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Flagship true wireless earbuds featuring adaptive dual-driver acoustics, ultra-wideband active noise cancellation up to 48dB, personalized 3D spatial head tracking, and Qi2 wireless fast charging.",
+    specs: {
+      "Acoustic Architecture": "11mm Liquid Crystal Polymer Woofer + 6mm Micro Planar Tweeter",
+      "Noise Cancellation": "Adaptive Hybrid ANC up to 48dB with Real-time Transparency",
+      "Battery Life & Case": "Up to 42 Hours Total Playback / Qi2 Magnetic Wireless Charging",
+      "Codecs & Connectivity": "Bluetooth 5.4, LDAC 990kbps, LC3 & Low Latency Gaming Mode"
+    }
   }
 ];
 
