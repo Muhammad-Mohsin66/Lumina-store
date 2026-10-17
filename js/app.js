@@ -1022,6 +1022,29 @@ const PRODUCTS_DATA = [
       "Smart Protocol": "Matter, Thread Border Router, Apple HomeKit & Google Assistant",
       "Connectivity": "Wi-Fi 6 (Dual Band 2.4/5GHz) + Bluetooth 5.3 Audio Streaming"
     }
+  },
+  {
+    id: "lumina-studio-pro-15",
+    name: "Lumina Studio Pro 15 InfinityEdge OLED Laptop",
+    category: "Laptops",
+    price: 345000,
+    oldPrice: 385000,
+    rating: 5.0,
+    reviews: 53,
+    badge: "FEATURED",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Flagship 15.6-inch creative workstation boasting a bezel-less 4K OLED touch display, Intel Core Ultra 9 processor, NVIDIA GeForce RTX 4070 studio GPU, and machined CNC aluminum body.",
+    specs: {
+      "Processor": "Intel Core Ultra 9 185H (16 Cores, up to 5.1 GHz)",
+      "Graphics & Display": "NVIDIA RTX 4070 8GB GDDR6 / 15.6'' 4K OLED (3840x2400) Touch",
+      "Memory & Storage": "64GB DDR5-5600MHz + 2TB PCIe 4.0 NVMe SSD",
+      "Chassis & Ports": "CNC Machined Aluminum + Carbon Fiber Palmrest / 3x Thunderbolt 4"
+    }
   }
 ];
 
