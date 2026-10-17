@@ -999,6 +999,29 @@ const PRODUCTS_DATA = [
       "Battery Life & Case": "Up to 42 Hours Total Playback / Qi2 Magnetic Wireless Charging",
       "Codecs & Connectivity": "Bluetooth 5.4, LDAC 990kbps, LC3 & Low Latency Gaming Mode"
     }
+  },
+  {
+    id: "lumina-echo-mini",
+    name: "Lumina Echo Mini Smart AI Speaker & Home Assistant",
+    category: "Smart Home",
+    price: 11999,
+    oldPrice: 14999,
+    rating: 4.8,
+    reviews: 59,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1558089687-f282ffcbc126?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1558089687-f282ffcbc126?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Compact intelligent smart speaker powered by on-device neural voice AI, 360-degree acoustic fabric driver, quad far-field noise-cancelling microphones, and Matter smart home ecosystem integration.",
+    specs: {
+      "Acoustic Driver": "40mm Full-Range Transducer with 360° Omnidirectional Bass",
+      "Microphones": "Quad Array Far-Field Mics with Acoustic Echo Cancellation",
+      "Smart Protocol": "Matter, Thread Border Router, Apple HomeKit & Google Assistant",
+      "Connectivity": "Wi-Fi 6 (Dual Band 2.4/5GHz) + Bluetooth 5.3 Audio Streaming"
+    }
   }
 ];
 
