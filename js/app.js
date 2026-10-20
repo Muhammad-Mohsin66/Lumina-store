@@ -1045,6 +1045,29 @@ const PRODUCTS_DATA = [
       "Memory & Storage": "64GB DDR5-5600MHz + 2TB PCIe 4.0 NVMe SSD",
       "Chassis & Ports": "CNC Machined Aluminum + Carbon Fiber Palmrest / 3x Thunderbolt 4"
     }
+  },
+  {
+    id: "lumina-tactix-pro",
+    name: "Lumina Tactix Pro Rugged Solar Titanium Smartwatch",
+    category: "Wearables",
+    price: 47999,
+    oldPrice: 54999,
+    rating: 4.9,
+    reviews: 62,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1509741102003-ca64bfe5f069?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Military-grade tactical GPS smartwatch engineered with solar-charging sapphire crystal, grade 5 titanium bezel, multi-band GNSS satellite positioning, night vision mode, and up to 30-day battery life.",
+    specs: {
+      "Display & Lens": "1.4'' Solar-Charging Power Sapphire AMOLED (1500 Nits)",
+      "Chassis & Durability": "Grade 5 Titanium Bezel / MIL-STD-810H Thermal, Shock & 10 ATM Water Resistance",
+      "Navigation & Sensors": "Multi-Band GNSS with Offline TopoActive Maps, Barometric Altimeter & 3-Axis Compass",
+      "Battery Performance": "Up to 30 Days in Smartwatch Mode (with Solar) / 82 Hours Continuous GPS"
+    }
   }
 ];
 
