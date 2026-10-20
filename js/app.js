@@ -1091,6 +1091,29 @@ const PRODUCTS_DATA = [
       "Memory & Storage": "32GB LPDDR5X-7500MHz RAM + 1TB PCIe 4.0 NVMe SSD",
       "Controls & Ports": "Hall Effect Joysticks & Triggers / Dual USB4 40Gbps Ports & Wi-Fi 6E"
     }
+  },
+  {
+    id: "lumina-resonance-headphones",
+    name: "Lumina Resonance Open-Back Planar Magnetic Reference Headphones",
+    category: "Audio",
+    price: 58999,
+    oldPrice: 68999,
+    rating: 5.0,
+    reviews: 38,
+    badge: "FEATURED",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Flagship audiophile open-back headphones engineered with ultra-thin nanometer planar magnetic drivers, acoustic mesh grills, CNC aerospace aluminum yoke, and detachable silver-plated OFC balanced cable.",
+    specs: {
+      "Transducer Type": "100mm Nanometer-Scale Planar Magnetic Diaphragm",
+      "Frequency Response": "5Hz - 55,000Hz (Hi-Res Audio Certified)",
+      "Impedance & Sensitivity": "32 Ohms / 102dB SPL (Easy to drive via DAC/Amp)",
+      "Build & Cable": "Handcrafted Leather Headband + 4.4mm Balanced & 6.35mm Silver Cables"
+    }
   }
 ];
 
