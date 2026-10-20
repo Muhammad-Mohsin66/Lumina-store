@@ -1068,6 +1068,29 @@ const PRODUCTS_DATA = [
       "Navigation & Sensors": "Multi-Band GNSS with Offline TopoActive Maps, Barometric Altimeter & 3-Axis Compass",
       "Battery Performance": "Up to 30 Days in Smartwatch Mode (with Solar) / 82 Hours Continuous GPS"
     }
+  },
+  {
+    id: "lumina-deck-oled",
+    name: "Lumina CyberDeck 7.4'' OLED Handheld Gaming PC",
+    category: "Laptops",
+    price: 175000,
+    oldPrice: 195000,
+    rating: 4.9,
+    reviews: 41,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-portable handheld PC workstation powered by AMD Ryzen Z1 Extreme, 7.4-inch 144Hz HDR OLED display, Hall Effect anti-drift magnetic joysticks, 32GB LPDDR5X RAM, and dual USB4 connectivity.",
+    specs: {
+      "Processor & GPU": "AMD Ryzen Z1 Extreme (8 Cores / 16 Threads + AMD RDNA 3 Graphics)",
+      "Display": "7.4'' 144Hz HDR OLED (1000 Nits Peak, 100% DCI-P3 Color Gamut)",
+      "Memory & Storage": "32GB LPDDR5X-7500MHz RAM + 1TB PCIe 4.0 NVMe SSD",
+      "Controls & Ports": "Hall Effect Joysticks & Triggers / Dual USB4 40Gbps Ports & Wi-Fi 6E"
+    }
   }
 ];
 
