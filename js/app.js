@@ -1160,6 +1160,29 @@ const PRODUCTS_DATA = [
       "All-in-One Base Station": "Self-Emptying (up to 75 Days), Auto Hot Water Mop Washing & Warm Air Drying",
       "Smart Ecosystem": "Matter, Apple Home, Google Assistant & LuminaOS 3D Multi-Floor Mapping"
     }
+  },
+  {
+    id: "lumina-fold-pc",
+    name: "Lumina Fold Pro 16.3'' Foldable OLED Multi-Mode Laptop",
+    category: "Laptops",
+    price: 425000,
+    oldPrice: 465000,
+    rating: 5.0,
+    reviews: 36,
+    badge: "FEATURED",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Groundbreaking 16.3-inch foldable OLED laptop seamlessly transforming between an expansive portable monitor, dual 12-inch split-screen workspace, and compact laptop with magnetic Bluetooth keyboard.",
+    specs: {
+      "Display & Hinge": "16.3'' Foldable 2.5K HDR OLED (2560x2024, 100% DCI-P3) / Precision Bell-Shaped Hinge",
+      "Processor & AI": "Intel Core Ultra 7 155U (12 Cores + Dedicated Intel AI Boost NPU)",
+      "Memory & Storage": "32GB LPDDR5X-6400MHz RAM + 1TB PCIe 4.0 NVMe SSD",
+      "Accessories & Modes": "Magnetic Detachable Keyboard with Trackpad + Lumina Active Stylus Included"
+    }
   }
 ];
 
