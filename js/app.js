@@ -1114,6 +1114,29 @@ const PRODUCTS_DATA = [
       "Impedance & Sensitivity": "32 Ohms / 102dB SPL (Easy to drive via DAC/Amp)",
       "Build & Cable": "Handcrafted Leather Headband + 4.4mm Balanced & 6.35mm Silver Cables"
     }
+  },
+  {
+    id: "lumina-oceanic-dive",
+    name: "Lumina Oceanic Pro 200m Titanium Dive Smartwatch",
+    category: "Wearables",
+    price: 54999,
+    oldPrice: 62999,
+    rating: 4.9,
+    reviews: 44,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Professional EN13319-certified scuba and freediving computer smartwatch crafted with grade 5 titanium case, depth sensor accurate to 200m, high-brightness sapphire AMOLED screen, and dual-gas decompression algorithm.",
+    specs: {
+      "Dive Certification & Depth": "EN13319 Scuba & Freedive Certified / 200m (20 ATM) Rated",
+      "Display & Glass": "1.5'' Ultra-Bright Sapphire AMOLED (2000 Nits Undersea Visibility)",
+      "Sensors & Algorithm": "Bühlmann ZHL-16C Decompression Algorithm, Depth Gauge & Water Temp",
+      "Battery Life": "Up to 21 Days Smartwatch Mode / 36 Hours Continuous Dive Mode"
+    }
   }
 ];
 
