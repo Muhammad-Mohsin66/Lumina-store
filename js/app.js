@@ -1137,6 +1137,29 @@ const PRODUCTS_DATA = [
       "Sensors & Algorithm": "Bühlmann ZHL-16C Decompression Algorithm, Depth Gauge & Water Temp",
       "Battery Life": "Up to 21 Days Smartwatch Mode / 36 Hours Continuous Dive Mode"
     }
+  },
+  {
+    id: "lumina-omniclean-robot",
+    name: "Lumina OmniClean AI Ultra Robot Vacuum & Mop Station",
+    category: "Smart Home",
+    price: 129999,
+    oldPrice: 149999,
+    rating: 4.9,
+    reviews: 47,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Autonomous all-in-one smart cleaning station with 8,000 Pa hyper-suction, dual spinning pressurized sonic mops, AI RGB 3D obstacle avoidance, automatic dust emptying, hot-water mop washing, and 45°C heated air drying.",
+    specs: {
+      "Suction & Mopping": "8,000 Pa Hyper-Suction & Dual High-Speed Pressurized Rotary Mops",
+      "Navigation & Vision": "LiDAR LDS 360° Navigation + AI RGB 3D Structured Light Obstacle Sensing",
+      "All-in-One Base Station": "Self-Emptying (up to 75 Days), Auto Hot Water Mop Washing & Warm Air Drying",
+      "Smart Ecosystem": "Matter, Apple Home, Google Assistant & LuminaOS 3D Multi-Floor Mapping"
+    }
   }
 ];
 
