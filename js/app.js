@@ -1206,6 +1206,29 @@ const PRODUCTS_DATA = [
       "Transmitters & Receiver": "Dual Clip-On TX Microphones + 1x RX Receiver with Touch OLED Screen",
       "Battery Life & Case": "Up to 18 Hours Total with Smart Fast-Charging Case (6 Hours per TX)"
     }
+  },
+  {
+    id: "lumina-neuroband",
+    name: "Lumina NeuroBand AI Sleep & Focus EEG Smart Headband",
+    category: "Wearables",
+    price: 28999,
+    oldPrice: 34999,
+    rating: 4.9,
+    reviews: 43,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Non-invasive brain-computer interface headband with medical-grade dry EEG sensors, real-time sleep staging, dynamic audio neurofeedback, focus-state modulation, and ergonomic sleep-grade breathable fabric.",
+    specs: {
+      "Brainwave Sensors": "7 Medical-Grade Dry EEG Electrodes + PPG Optical Heart Rate & SpO2",
+      "Sleep & Focus Tracking": "Real-Time Delta/Theta Wave Analysis, Deep Sleep Induction & Focus Binaural Beats",
+      "Ergonomics & Fabric": "Ultra-Flexible Breathable Silk & Memory Foam Headband (Only 48g)",
+      "Battery Life & App": "Up to 14 Hours Continuous Sleep Tracking / Lumina BrainOS Analytics"
+    }
   }
 ];
 
