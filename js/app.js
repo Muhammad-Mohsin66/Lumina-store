@@ -1183,6 +1183,29 @@ const PRODUCTS_DATA = [
       "Memory & Storage": "32GB LPDDR5X-6400MHz RAM + 1TB PCIe 4.0 NVMe SSD",
       "Accessories & Modes": "Magnetic Detachable Keyboard with Trackpad + Lumina Active Stylus Included"
     }
+  },
+  {
+    id: "lumina-airwave-mic",
+    name: "Lumina AirWave Pro 2-Person Wireless Lavalier Microphone System",
+    category: "Audio",
+    price: 19999,
+    oldPrice: 24999,
+    rating: 4.9,
+    reviews: 51,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Professional broadcast-quality wireless lavalier microphone system featuring dual clip-on transmitters, 32-bit float onboard recording, AI environmental noise cancellation, and 250m stable range.",
+    specs: {
+      "Audio Quality & Transmission": "48kHz / 24-bit Lossless Audio with 2.4GHz Digital Frequency Hopping (250m Range)",
+      "Noise Cancellation": "One-Click AI Environmental Noise Cancellation (ENC) & 32-bit Float Internal Recording",
+      "Transmitters & Receiver": "Dual Clip-On TX Microphones + 1x RX Receiver with Touch OLED Screen",
+      "Battery Life & Case": "Up to 18 Hours Total with Smart Fast-Charging Case (6 Hours per TX)"
+    }
   }
 ];
 
