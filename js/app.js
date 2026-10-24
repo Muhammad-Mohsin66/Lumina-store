@@ -1229,6 +1229,29 @@ const PRODUCTS_DATA = [
       "Ergonomics & Fabric": "Ultra-Flexible Breathable Silk & Memory Foam Headband (Only 48g)",
       "Battery Life & App": "Up to 14 Hours Continuous Sleep Tracking / Lumina BrainOS Analytics"
     }
+  },
+  {
+    id: "lumina-paper-pro",
+    name: "Lumina Paper Pro 10.3'' Color E-Ink AI Digital Notebook",
+    category: "Laptops",
+    price: 89999,
+    oldPrice: 99999,
+    rating: 4.9,
+    reviews: 39,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1585776245991-cf89dd7fc73a?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-slim 10.3-inch color E-Ink digital paper tablet with paper-like writing friction, 4,096 levels of pressure sensitivity, AI handwriting-to-text conversion, zero blue light eye protection, and 4-week battery life.",
+    specs: {
+      "Display & Technology": "10.3'' Kaleido 3 Color E-Ink (300 PPI B&W / 150 PPI Color, Glare-Free)",
+      "Stylus & Feel": "Battery-Free EMR Stylus (4,096 Pressure Levels & Textured Glass Surface)",
+      "Hardware & OS": "Octa-Core AI Processor, 6GB RAM + 128GB Storage / Android 13 + Lumina NoteOS",
+      "Battery Performance": "4,000mAh Battery (Up to 4 Weeks Typical Usage on a Single Charge)"
+    }
   }
 ];
 
