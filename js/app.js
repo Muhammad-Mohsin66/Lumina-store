@@ -1275,6 +1275,29 @@ const PRODUCTS_DATA = [
       "Wireless Connectivity": "Bluetooth 5.3 with aptX Adaptive & 24-bit/96kHz Wi-Fi Audio Streaming",
       "Outputs & Digitization": "Gold-Plated RCA Outputs, Ground Terminal & USB-C Direct Audio Encoding"
     }
+  },
+  {
+    id: "lumina-spectra-xr",
+    name: "Lumina Spectra XR Ultra-Light Micro-OLED AR Glasses",
+    category: "Wearables",
+    price: 69999,
+    oldPrice: 79999,
+    rating: 4.9,
+    reviews: 48,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-portable 72g spatial augmented reality glasses featuring dual Sony Micro-OLED 120Hz displays, projecting a crisp 201-inch virtual cinema screen with electrochromic dimming and directional spatial audio.",
+    specs: {
+      "Displays & Optics": "Dual 0.55'' Sony Micro-OLED Displays (1080p per eye, 120Hz, 600 Nits)",
+      "Virtual Screen & FOV": "46° Field of View (Equivalent to 201-inch Cinema Screen at 6m)",
+      "Weight & Dimming": "72g Lightweight Titanium Frame + 3-Level Electrochromic Lens Dimming",
+      "Audio & Connectivity": "Directional Stereo Acoustic Speakers + USB-C DisplayPort Plug-and-Play"
+    }
   }
 ];
 
