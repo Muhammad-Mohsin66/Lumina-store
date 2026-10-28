@@ -1252,6 +1252,29 @@ const PRODUCTS_DATA = [
       "Hardware & OS": "Octa-Core AI Processor, 6GB RAM + 128GB Storage / Android 13 + Lumina NoteOS",
       "Battery Performance": "4,000mAh Battery (Up to 4 Weeks Typical Usage on a Single Charge)"
     }
+  },
+  {
+    id: "lumina-vinyl-pro",
+    name: "Lumina Vinyl Pro Hi-Res Wireless Smart Turntable",
+    category: "Audio",
+    price: 49999,
+    oldPrice: 57999,
+    rating: 4.9,
+    reviews: 42,
+    badge: "FEATURED",
+    badgeClass: "",
+    image: "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1607462109225-6b64ae2dd3cb?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Audiophile-grade precision belt-drive turntable featuring a carbon fiber tonearm, high-density anti-resonance plinth, wireless 24-bit/96kHz aptX HD streaming, built-in switchable phono preamp, and USB-C vinyl rip.",
+    specs: {
+      "Drive & Tonearm": "Isolated Belt Drive System + 8.6'' Lightweight Carbon Fiber Tonearm",
+      "Cartridge & Preamp": "Pre-Mounted Audio-Technica AT-VM95E Cartridge & Built-in Phono Stage",
+      "Wireless Connectivity": "Bluetooth 5.3 with aptX Adaptive & 24-bit/96kHz Wi-Fi Audio Streaming",
+      "Outputs & Digitization": "Gold-Plated RCA Outputs, Ground Terminal & USB-C Direct Audio Encoding"
+    }
   }
 ];
 
