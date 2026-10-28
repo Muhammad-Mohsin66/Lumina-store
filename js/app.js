@@ -1298,6 +1298,29 @@ const PRODUCTS_DATA = [
       "Weight & Dimming": "72g Lightweight Titanium Frame + 3-Level Electrochromic Lens Dimming",
       "Audio & Connectivity": "Directional Stereo Acoustic Speakers + USB-C DisplayPort Plug-and-Play"
     }
+  },
+  {
+    id: "lumina-securelock-pro",
+    name: "Lumina SecureLock AI 3D Facial Recognition Smart Lock",
+    category: "Smart Home",
+    price: 42999,
+    oldPrice: 49999,
+    rating: 4.9,
+    reviews: 56,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Next-generation intelligent entrance lock equipped with 3D structured light facial recognition, palm vein authentication, built-in 2K HDR video doorbell, Grade C automatic mortise, and Matter smart home ecosystem integration.",
+    specs: {
+      "Biometric Authentication": "3D Structured Light Face ID (<0.4s unlock), Palm Vein & Semiconductor Fingerprint",
+      "Video & Doorbell": "Built-in 2K HDR 160° Ultra-Wide Video Doorbell with 4-inch IPS Indoor Screen",
+      "Security & Mortise": "Grade C Heavy-Duty Stainless Steel Anti-Drill & Anti-Pry Automatic Lock Body",
+      "Battery & Ecosystem": "Dual 5,000mAh Hot-Swappable Batteries (Up to 10 Months) / Matter & Apple Home"
+    }
   }
 ];
 
