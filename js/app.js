@@ -1344,6 +1344,29 @@ const PRODUCTS_DATA = [
       "Dimensions": "90 x 40 cm Extended Desk Coverage with Anti-Slip Base",
       "Extras": "Magnetic Cable Organizer Clips + Ambient LED Edge Lighting (RGB)"
     }
+  },
+  {
+    id: "lumina-air-purifier",
+    name: "Lumina BreezeAI Smart Air Purifier Pro",
+    category: "Smart Home",
+    price: 34999,
+    oldPrice: 42999,
+    rating: 4.9,
+    reviews: 61,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1636367989498-fcb5e83e8f8b?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Intelligent HEPA-14 air purifier with real-time laser PM2.5 & VOC air quality sensor, whisper-quiet 18dB sleep mode, UV-C sterilization, and smart app control with Matter integration.",
+    specs: {
+      "Filtration": "True HEPA-14 + Activated Carbon + UV-C Sterilization (99.97% Particle Removal)",
+      "Coverage & CADR": "Up to 650 sq ft / 380 m³/h Clean Air Delivery Rate",
+      "Sensors & Display": "Laser PM2.5, VOC & Humidity Sensors with Color LED AQI Ring Display",
+      "Noise & Connectivity": "18dB Ultra-Quiet Sleep Mode / Wi-Fi 2.4GHz, Matter & Apple Home Compatible"
+    }
   }
 ];
 
