@@ -1321,6 +1321,29 @@ const PRODUCTS_DATA = [
       "Security & Mortise": "Grade C Heavy-Duty Stainless Steel Anti-Drill & Anti-Pry Automatic Lock Body",
       "Battery & Ecosystem": "Dual 5,000mAh Hot-Swappable Batteries (Up to 10 Months) / Matter & Apple Home"
     }
+  },
+  {
+    id: "lumina-desk-pad",
+    name: "Lumina Zen Wireless Charging Desk Pad Pro",
+    category: "Accessories",
+    price: 8999,
+    oldPrice: 11999,
+    rating: 4.8,
+    reviews: 45,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1616400619175-5beda3a17896?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1616400619175-5beda3a17896?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1625723044792-44de16ccb4e9?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Premium vegan leather desk mat with built-in 15W Qi2 dual wireless charging zones, integrated USB-C hub, magnetic cable management, and spill-resistant nano-coating.",
+    specs: {
+      "Charging": "Dual 15W Qi2 Magnetic Wireless Charging Zones + USB-C Passthrough",
+      "Material": "Premium PU Vegan Leather with Nano Hydrophobic Coating",
+      "Dimensions": "90 x 40 cm Extended Desk Coverage with Anti-Slip Base",
+      "Extras": "Magnetic Cable Organizer Clips + Ambient LED Edge Lighting (RGB)"
+    }
   }
 ];
 
