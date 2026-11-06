@@ -1413,6 +1413,29 @@ const PRODUCTS_DATA = [
       "Storage & Connectivity": "Bluetooth 5.4 + 32GB Onboard MP3 Music Storage",
       "Battery & Charging": "10 Hours Continuous Playback / 10-Min Quick Charge for 2 Hours Play"
     }
+  },
+  {
+    id: "lumina-monitor-lightbar",
+    name: "Lumina Lumos ScreenBar Pro Wireless Monitor Light Bar",
+    category: "Accessories",
+    price: 13999,
+    oldPrice: 16999,
+    rating: 4.9,
+    reviews: 48,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1593062096033-9a26b09da705?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Precision asymmetric optical monitor light bar featuring zero screen glare, 2.4GHz wireless rotary dial controller, auto-dimming ambient light sensor, and full Ra95 color rendering index.",
+    specs: {
+      "Optics & Glare Reduction": "Asymmetric Optical Design (Zero Screen Reflection & Eye Strain)",
+      "Controller": "2.4GHz Wireless Desktop Rotary Dial (Stepless Dimming & Color Temp)",
+      "Color Temperature & CRI": "2700K - 6500K Tunable White / Ra95 Ultra-High Color Accuracy",
+      "Power & Mounting": "USB-C Powered (5V/2A) with Weighted Gravity Clamp for Flat & Curved Displays"
+    }
   }
 ];
 
