@@ -1367,6 +1367,29 @@ const PRODUCTS_DATA = [
       "Sensors & Display": "Laser PM2.5, VOC & Humidity Sensors with Color LED AQI Ring Display",
       "Noise & Connectivity": "18dB Ultra-Quiet Sleep Mode / Wi-Fi 2.4GHz, Matter & Apple Home Compatible"
     }
+  },
+  {
+    id: "lumina-tech-backpack",
+    name: "Lumina CyberPack Smart Anti-Theft Tech Backpack",
+    category: "Accessories",
+    price: 18499,
+    oldPrice: 22999,
+    rating: 4.9,
+    reviews: 54,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Sleek aerodynamic waterproof tech backpack featuring integrated USB-C charging passthrough, TSA biometric lock, padded 16-inch laptop compartment, and hidden RFID-blocking pockets.",
+    specs: {
+      "Capacity & Compartments": "28L Storage Capacity with Dedicated 16'' Laptop & Tablet Sleeves",
+      "Security & Locks": "Integrated TSA Biometric Fingerprint Lock & Hidden RFID Anti-Theft Pockets",
+      "Materials & Protection": "IPX6 Water-Resistant Cordura Fabric with Shockproof EVA Hard Shell",
+      "Convenience": "External USB-C Fast-Charging Passthrough Port & Breathable Ergonomic Back Panel"
+    }
   }
 ];
 
