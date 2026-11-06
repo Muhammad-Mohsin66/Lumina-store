@@ -1390,6 +1390,29 @@ const PRODUCTS_DATA = [
       "Materials & Protection": "IPX6 Water-Resistant Cordura Fabric with Shockproof EVA Hard Shell",
       "Convenience": "External USB-C Fast-Charging Passthrough Port & Breathable Ergonomic Back Panel"
     }
+  },
+  {
+    id: "lumina-bone-conduction",
+    name: "Lumina AeroFit Bone Conduction Sport Headphones",
+    category: "Audio",
+    price: 15999,
+    oldPrice: 19999,
+    rating: 4.8,
+    reviews: 63,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Open-ear bone conduction sports headphones engineered with 9th-generation PremiumPitch 2.0+ technology, IP68 waterproof rating for swimming, 32GB onboard MP3 storage, and dual noise-canceling microphones.",
+    specs: {
+      "Audio Technology": "9th Gen Bone Conduction Transducers (Open-Ear Safety Design)",
+      "Waterproofing": "IP68 Submersible Waterproof (Safe for Swimming & Heavy Rain)",
+      "Storage & Connectivity": "Bluetooth 5.4 + 32GB Onboard MP3 Music Storage",
+      "Battery & Charging": "10 Hours Continuous Playback / 10-Min Quick Charge for 2 Hours Play"
+    }
   }
 ];
 
