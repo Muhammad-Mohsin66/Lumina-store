@@ -1459,6 +1459,29 @@ const PRODUCTS_DATA = [
       "Energy Intelligence": "Adaptive AI Schedule Learning & Geo-Fencing Eco Mode",
       "Connectivity": "Dual-Band Wi-Fi, Thread, Matter, Apple Home, Google Home & Alexa"
     }
+  },
+  {
+    id: "lumina-pocket-cam",
+    name: "Lumina PocketCine 4K 3-Axis Gimbal Vlog Camera",
+    category: "Accessories",
+    price: 58999,
+    oldPrice: 68999,
+    rating: 4.9,
+    reviews: 67,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Pocket-sized 1-inch CMOS 4K/120fps cinema gimbal camera with a 2-inch rotatable OLED touchscreen, ActiveTrack 6.0 AI subject framing, 10-bit D-Log M color, and built-in stereo directional microphones.",
+    specs: {
+      "Sensor & Video": "1-Inch CMOS Sensor / 4K 120fps 10-Bit D-Log M & HLG",
+      "Stabilization & Screen": "3-Axis Mechanical Gimbal + 2'' Rotatable OLED Touchscreen",
+      "Audio & Storage": "3-Mic Stereo Array + Wireless Mic Receiver / microSD up to 1TB",
+      "Battery & Charging": "166 Mins Continuous 4K Recording (80% Fast Charge in 16 Mins)"
+    }
   }
 ];
 
