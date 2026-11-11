@@ -1482,6 +1482,29 @@ const PRODUCTS_DATA = [
       "Audio & Storage": "3-Mic Stereo Array + Wireless Mic Receiver / microSD up to 1TB",
       "Battery & Charging": "166 Mins Continuous 4K Recording (80% Fast Charge in 16 Mins)"
     }
+  },
+  {
+    id: "lumina-ultrawide-oled",
+    name: "Lumina Horizon 49'' Dual QHD 240Hz Curved QD-OLED Monitor",
+    category: "Laptops",
+    price: 289999,
+    oldPrice: 329999,
+    rating: 5.0,
+    reviews: 41,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1616763355548-1b606f439f86?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Ultra-immersive 49-inch 32:9 super-ultrawide 1800R curved QD-OLED display featuring 5120x1440 resolution, lightning-fast 240Hz refresh rate, 0.03ms GtG response time, built-in KVM switch, and 90W USB-C power delivery.",
+    specs: {
+      "Panel & Resolution": "49'' 1800R Curved QD-OLED (5120 x 1440 Dual QHD, 32:9)",
+      "Refresh & Response": "240Hz Refresh Rate / 0.03ms GtG / VESA DisplayHDR True Black 400",
+      "Color Accuracy": "99% DCI-P3 / 10-Bit Color Depth / Factory Calibrated Delta E < 1",
+      "Connectivity & KVM": "USB-C (90W PD), DisplayPort 1.4, Dual HDMI 2.1 & Built-in KVM Switch"
+    }
   }
 ];
 
