@@ -1436,6 +1436,29 @@ const PRODUCTS_DATA = [
       "Color Temperature & CRI": "2700K - 6500K Tunable White / Ra95 Ultra-High Color Accuracy",
       "Power & Mounting": "USB-C Powered (5V/2A) with Weighted Gravity Clamp for Flat & Curved Displays"
     }
+  },
+  {
+    id: "lumina-smart-thermostat",
+    name: "Lumina EcoSense AI Smart Thermostat Pro",
+    category: "Smart Home",
+    price: 24999,
+    oldPrice: 29999,
+    rating: 4.8,
+    reviews: 52,
+    badge: "NEW",
+    badgeClass: "badge-new",
+    image: "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=600&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=600&q=80"
+    ],
+    description: "Adaptive AI smart thermostat featuring a sapphire glass OLED touchscreen, built-in air quality & occupancy radar, multi-room sensor support, and Matter compatibility for up to 28% HVAC energy savings.",
+    specs: {
+      "Display & Build": "3.5'' Round Sapphire Glass OLED Touchscreen with Anodized Aluminum Dial",
+      "Sensors": "Temperature, Humidity, TVOC Air Quality & mmWave Occupancy Radar",
+      "Energy Intelligence": "Adaptive AI Schedule Learning & Geo-Fencing Eco Mode",
+      "Connectivity": "Dual-Band Wi-Fi, Thread, Matter, Apple Home, Google Home & Alexa"
+    }
   }
 ];
 
